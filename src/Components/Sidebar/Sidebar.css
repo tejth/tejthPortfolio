@@ -7,6 +7,7 @@
   height: 100vh;
   background-color: #030303da;
   width: 95px;
+  position: fixed;
 }
 
 .sidebar-expand {
@@ -25,7 +26,7 @@
   padding: 5px;
   color: white;
   border-radius: 5px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .container-fluid {

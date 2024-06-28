@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Sidebar.css";
 import Home from "../Home/Home";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
-
+import SidebarList from "./SidebarList";
 function Sidebar() {
   const [expandSidebar, setExpandSidebar] = useState(true);
   const handleExpandClick = () => {
@@ -20,6 +20,7 @@ function Sidebar() {
             )}
           </p>
         </div>
+        <SidebarList expandSidebar={expandSidebar} />
       </div>
       <div className="container">
         <Home />
