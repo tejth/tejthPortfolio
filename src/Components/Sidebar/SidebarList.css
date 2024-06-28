@@ -9,3 +9,28 @@
   border: 3px solid yellow;
   image-rendering: pixelated;
 }
+
+.navbar-items ul li {
+  color: white;
+  list-style-type: none;
+  cursor: pointer;
+  margin-top: 22px;
+}
+.navbar-items ul li svg {
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+.nav-item {
+  white-space: nowrap;
+}
+
+.navbar-items-only-icons ul li {
+  margin-top: 20px;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.navbar-items-only-icons ul li svg {
+  margin-left: 10px;
+}
