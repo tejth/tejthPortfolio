@@ -36,7 +36,7 @@ function SidebarList({ expandSidebar }) {
               <MdBiotech size={25} color="orange" /> Tech Stack
             </li>
             <li className="nav-item">
-              <MdCastForEducation size={25} color="orange" /> Education
+              <MdCastForEducation size={25} color="yellow" /> Education
             </li>
             <li className="nav-item">
               <FcTodoList size={25} /> Project
@@ -66,7 +66,7 @@ function SidebarList({ expandSidebar }) {
               <MdBiotech size={25} color="orange" />
             </li>
             <li className="nav-item">
-              <MdCastForEducation size={25} color="orange" />
+              <MdCastForEducation size={25} color="yellow" />
             </li>
 
             <li className="nav-item">
