@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
-
+import MyCv from "../../image/Profile.pdf";
 function Home() {
   return (
     <>
@@ -17,6 +17,15 @@ function Home() {
               }}
             />
           </h2>
+
+          <div className="button-for-action">
+            <div className="hire-me-button">Hire Me</div>
+            <div className="get-resume-button">
+              <a href={MyCv} download="Tej_Resume.pdf">
+                Get Resume
+              </a>{" "}
+            </div>
+          </div>
         </div>
       </div>
     </>

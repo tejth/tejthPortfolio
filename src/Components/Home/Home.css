@@ -13,3 +13,53 @@
 .home-content h2 {
   color: gold;
 }
+
+.button-for-action {
+  display: flex;
+}
+
+.hire-me-button {
+  background-color: #ff854c;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  padding: 6px;
+  border-radius: 90px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 2px solid white;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.hire-me-button:hover {
+  background-color: white;
+  width: 250px;
+  color: black;
+  transition-duration: 1s;
+}
+.get-resume-button {
+  background-color: orangered;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  padding: 6px;
+  border-radius: 90px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 2px solid white;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.get-resume-button:hover {
+  background-color: white;
+  width: 250px;
+  color: black;
+  transition-duration: 1s;
+}
+
+.get-resume-button a {
+  text-decoration: none;
+  color: black;
+}
