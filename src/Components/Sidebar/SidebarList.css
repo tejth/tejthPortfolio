@@ -23,10 +23,11 @@
 
 .nav-item {
   white-space: nowrap;
+  font-size: 0.7rem;
 }
 
 .navbar-items-only-icons ul li {
-  margin-top: 20px;
+  margin-top: 25px;
   cursor: pointer;
   list-style-type: none;
 }

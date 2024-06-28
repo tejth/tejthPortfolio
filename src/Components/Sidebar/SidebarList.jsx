@@ -24,28 +24,28 @@ function SidebarList({ expandSidebar }) {
 
           <ul>
             <li className="nav-item">
-              <FcHome size={25} /> Home
+              <FcHome size={16} /> Home
             </li>
             <li className="nav-item">
-              <FcNightPortrait size={25} /> About
+              <FcNightPortrait size={16} /> About
             </li>
             <li className="nav-item">
-              <FcFactory size={25} /> Work Experience
+              <FcFactory size={16} /> Work Experience
             </li>
             <li className="nav-item">
-              <MdBiotech size={25} color="orange" /> Tech Stack
+              <MdBiotech size={16} color="orange" /> Tech Stack
             </li>
             <li className="nav-item">
-              <MdCastForEducation size={25} color="yellow" /> Education
+              <MdCastForEducation size={16} color="yellow" /> Education
             </li>
             <li className="nav-item">
-              <FcTodoList size={25} /> Project
+              <FcTodoList size={16} /> Project
             </li>
             <li className="nav-item">
-              <FcKindle size={25} /> Notes
+              <FcKindle size={16} /> Notes
             </li>
             <li className="nav-item">
-              <FcContacts size={25} /> Contact
+              <FcContacts size={16} /> Contact
             </li>
           </ul>
         </div>
@@ -53,30 +53,30 @@ function SidebarList({ expandSidebar }) {
         <div className="navbar-items-only-icons">
           <ul>
             <li className="nav-item">
-              <FcHome size={25} />
+              <FcHome size={20} />
             </li>
             <li className="nav-item">
-              <FcNightPortrait size={25} />
+              <FcNightPortrait size={20} />
             </li>
             <li className="nav-item">
-              <FcFactory size={25} />
-            </li>
-
-            <li className="nav-item">
-              <MdBiotech size={25} color="orange" />
-            </li>
-            <li className="nav-item">
-              <MdCastForEducation size={25} color="yellow" />
+              <FcFactory size={20} />
             </li>
 
             <li className="nav-item">
-              <FcTodoList size={25} />
+              <MdBiotech size={20} color="orange" />
             </li>
             <li className="nav-item">
-              <FcKindle size={25} />
+              <MdCastForEducation size={20} color="yellow" />
+            </li>
+
+            <li className="nav-item">
+              <FcTodoList size={20} />
             </li>
             <li className="nav-item">
-              <FcContacts size={25} />
+              <FcKindle size={20} />
+            </li>
+            <li className="nav-item">
+              <FcContacts size={20} />
             </li>
           </ul>
         </div>
