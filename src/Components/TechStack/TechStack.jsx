@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./TechStack.css";
 
 function TechStack() {
@@ -43,7 +43,7 @@ function TechStack() {
       name: "Turtle",
     },
     {
-      name: "Sqlite3",
+      name: "SQLite3",
     },
     {
       name: "Firebase",
@@ -75,6 +75,11 @@ function TechStack() {
     "#FF1042",
     "#3498DB ",
   ];
+
+  const [showMoreTechStack, setShowMoreTechStack] = useState(12);
+  const loadMore = () => {
+    setShowMoreTechStack((prev) => prev + 3);
+  };
   return (
     <>
       <div className="container techstack-section">
@@ -84,7 +89,7 @@ function TechStack() {
         </div>
 
         <div className="row">
-          {data.map((item, index) => (
+          {data.slice(0, showMoreTechStack).map((item, index) => (
             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 " key={index}>
               <div className="tech-content">
                 <span
@@ -98,6 +103,11 @@ function TechStack() {
             </div>
           ))}
         </div>
+        {showMoreTechStack >= data.length ? null : (
+          <span className="load-more-tech-stack" onClick={loadMore}>
+            Load More
+          </span>
+        )}
       </div>
     </>
   );
