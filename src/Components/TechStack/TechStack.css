@@ -73,7 +73,7 @@
   cursor: pointer;
 }
 
-.load-more-tech-stack {
+.load-more-tech-stack:hover {
   background-color: blueviolet;
   transition-duration: 1s;
 }
