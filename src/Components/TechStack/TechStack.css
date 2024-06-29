@@ -37,3 +37,16 @@
   -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
   -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
 }
+
+.tech-number {
+  border-radius: 90px;
+  height: 50px;
+  width: 50px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: 0 auto;
+  line-height: 50px;
+}
