@@ -38,6 +38,10 @@
   -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
   -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
 }
+.tech-content-marked {
+  background-color: tomato;
+  color: white;
+}
 
 .tech-number {
   border-radius: 90px;
@@ -50,6 +54,7 @@
   display: block;
   margin: 0 auto;
   line-height: 50px;
+  margin-top: -30px;
 }
 
 .load-more-tech-stack {
@@ -66,4 +71,9 @@
   border-radius: 5px;
   margin-bottom: 40px;
   cursor: pointer;
+}
+
+.load-more-tech-stack {
+  background-color: blueviolet;
+  transition-duration: 1s;
 }
