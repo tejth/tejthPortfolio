@@ -12,6 +12,8 @@ function ProjectList({ name, des, projectlink, techused }) {
       <div
         className={show ? "project-list-opened project-list " : "project-list"}
         onClick={handleShowandCollapse}
+        onMouseEnter={() => setShow(true)}
+        onMouseLeave={() => setShow(false)}
       >
         <div className="title-and-collapse-option">
           <h5>{name}</h5>
@@ -19,7 +21,14 @@ function ProjectList({ name, des, projectlink, techused }) {
         </div>
 
         <div className="description">
-          {show ? <p>{des}</p> : <p>{des.substring(0, 50)}...Read More</p>}
+          {show ? (
+            <p>{des}</p>
+          ) : (
+            <p>
+              {des.substring(0, 50)}...
+              <p style={{ color: "green" }}>Read More</p>
+            </p>
+          )}
         </div>
 
         <div className="row">
