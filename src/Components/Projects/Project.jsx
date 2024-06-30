@@ -1,5 +1,7 @@
 import React from "react";
-
+import "./Project.css";
+import "./ProjectList";
+import ProjectList from "./ProjectList";
 function Project() {
   const data = [
     {
@@ -55,7 +57,7 @@ function Project() {
           techname: "CSS",
         },
         {
-          techname: "BOOTSTRAP",
+          techname: "Bootstrap",
         },
         {
           techname: "JS",
@@ -206,10 +208,10 @@ function Project() {
           <h5>Projects</h5>
           <span className="line tech-stack-line"></span>
         </div>
-        <div className="row">
+        <div className="row projectclass">
           {data.map((item, index) => (
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-              {item.name}
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12" key={index}>
+              <ProjectList {...item} />
             </div>
           ))}
         </div>
