@@ -19,6 +19,10 @@
   cursor: pointer;
   transition-duration: 1s;
 }
+
+.project-list-opened {
+  border-left: 5px solid blueviolet;
+}
 .tech-used-in-project {
   margin-top: 20px;
   margin: 5px;
@@ -53,4 +57,7 @@
 
 .tech-used-in-project p:hover {
   background-color: black;
+}
+.description {
+  margin: 5px;
 }

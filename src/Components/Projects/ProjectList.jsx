@@ -1,16 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import { FcExpand, FcCollapse } from "react-icons/fc";
 function ProjectList({ name, des, projectlink, techused }) {
+  const [show, setShow] = useState(false);
+
+  const handleShowandCollapse = () => {
+    setShow(!show);
+  };
+
   return (
     <>
-      <div className="project-list">
+      <div
+        className={show ? "project-list-opened project-list " : "project-list"}
+        onClick={handleShowandCollapse}
+      >
         <div className="title-and-collapse-option">
           <h5>{name}</h5>
-          <p>
-            <FcExpand size={20} />
-          </p>
+          <p>{show ? <FcCollapse size={20} /> : <FcExpand size={20} />}</p>
         </div>
-        <p>{des.substring(0, 120)}</p>
+
+        <div className="description">
+          {show ? <p>{des}</p> : <p>{des.substring(0, 50)}...Read More</p>}
+        </div>
 
         <div className="row">
           {techused &&
