@@ -99,7 +99,7 @@ function WorkExperience() {
   const colors = ["#800000", "#FF8042", "#4B088A", "#FF6347", "#FF1042"];
   return (
     <>
-      <div className="container">
+      <div className="container  work-experience-section">
         <div className="section-title">
           <h5>Work Experience</h5>
           <span className="line tech-stack-line"></span>
@@ -115,7 +115,7 @@ function WorkExperience() {
                   color: "#fff",
                 }}
                 contentArrowStyle={{
-                  borderRight: "7px solid  rgb(33, 150, 243)",
+                  borderRight: "7px solid  #FFBB24",
                 }}
                 date={item.year}
                 dateClassName="date-class"
