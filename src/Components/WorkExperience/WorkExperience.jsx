@@ -44,57 +44,6 @@ function WorkExperience() {
         },
       ],
     },
-    {
-      companyname: "InternPe",
-      position: "Frontend Developer",
-      des: "Created Three Projects assigned to me by Internpe in Three Months.",
-      year: "2019-2020",
-      techskills: [
-        {
-          techname: "CSS",
-        },
-        {
-          techname: "ReactJs",
-        },
-        {
-          techname: "Nodejs",
-        },
-      ],
-    },
-    {
-      companyname: "InternPe",
-      position: "Frontend Developer",
-      des: "Created Three Projects assigned to me by Internpe in Three Months.",
-      year: "2019-2020",
-      techskills: [
-        {
-          techname: "CSS",
-        },
-        {
-          techname: "ReactJs",
-        },
-        {
-          techname: "Bootstrap",
-        },
-      ],
-    },
-    {
-      companyname: "InternPe",
-      position: "Frontend Developer",
-      des: "Created Three Projects assigned to me by Internpe in Three Months.",
-      year: "2019-2020",
-      techskills: [
-        {
-          techname: "CSS",
-        },
-        {
-          techname: "ReactJs",
-        },
-        {
-          techname: "Bootstrap",
-        },
-      ],
-    },
   ];
   const colors = ["#800000", "#FF8042", "#4B088A", "#FF6347", "#FF1042"];
   return (
