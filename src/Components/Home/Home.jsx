@@ -15,7 +15,7 @@ function Home({ theme, changeTheme }) {
               <BsMoonStarsFill size={40} />
             </p>
           ) : (
-            <p>
+            <p className="sun-theme-icon">
               <IoSunny size={40} />{" "}
             </p>
           )}

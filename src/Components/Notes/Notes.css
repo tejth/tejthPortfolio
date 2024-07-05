@@ -22,7 +22,6 @@ img {
   overflow: hidden;
   width: 200px;
   margin: 0 auto; /* Center cards horizontally */
-  z-index: -1;
 }
 
 .card-header {
