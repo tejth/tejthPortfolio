@@ -10,6 +10,7 @@ import Notes from "./Components/Notes/Notes";
 import Contact from "./Components/Contact/Contact";
 import ScrollToTop from "react-scroll-to-top";
 import NavbarMobileView from "./Components/Sidebar/NavbarMobileView";
+import Hobbies from "./Components/Hobbies/Hobbies";
 
 export const ThemeContext = createContext(null);
 
@@ -31,6 +32,7 @@ function App() {
         <WorkExperience />
         <Education />
         <Notes />
+        <Hobbies />
         <Contact />
       </div>
 

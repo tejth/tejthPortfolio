@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./NavbarMobileView.css";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { FcFlashOn } from "react-icons/fc";
+
 import {
   FcHome,
   FcNightPortrait,
@@ -109,6 +111,17 @@ function NavbarMobileView() {
                   offset={-100}
                 >
                   <FcKindle size={16} /> Notes
+                </Link>
+              </li>
+              <li className="nav-item-mobileview">
+                <Link
+                  to="hobi"
+                  spy={true}
+                  smooth={true}
+                  duration={100}
+                  offset={-100}
+                >
+                  <FcFlashOn size={16} /> Hobbies
                 </Link>
               </li>
               <li className="nav-item-mobileview">

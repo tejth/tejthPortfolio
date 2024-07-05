@@ -13,6 +13,7 @@ import {
 } from "react-icons/fc";
 import { MdBiotech, MdCastForEducation } from "react-icons/md";
 import { Link } from "react-scroll";
+import { FcFlashOn } from "react-icons/fc";
 
 function SidebarList({ expandSidebar }) {
   return (
@@ -105,6 +106,17 @@ function SidebarList({ expandSidebar }) {
                 offset={-100}
               >
                 <FcKindle size={16} /> Notes
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="hobi"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcFlashOn size={16} /> Hobbies
               </Link>
             </li>
             <li className="nav-item">
@@ -204,6 +216,17 @@ function SidebarList({ expandSidebar }) {
                 offset={-100}
               >
                 <FcKindle size={16} />
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="hobi"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcFlashOn size={16} />
               </Link>
             </li>
             <li className="nav-item">
