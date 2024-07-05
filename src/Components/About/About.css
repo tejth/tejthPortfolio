@@ -3,9 +3,12 @@
   -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
   -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
   margin-top: 50px;
-
+  display: flex;
+  flex-direction: column;
   height: 500px;
-  margin-left: 10%;
+  /* margin-left: 8%; */
+  justify-content: center;
+  align-items: center;
 }
 
 #dark .about-section {
@@ -22,10 +25,22 @@
   margin-top: 50px;
   border: 5px solid yellow;
   object-fit: cover;
+  margin: 14%;
 }
 
 .about-details {
   margin-top: 50px;
+}
+.buttonnn {
+  margin: 20px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  gap: 30px;
 }
 
 .about-title h5 {
@@ -43,5 +58,50 @@
 @media (max-width: 1000px) {
   .about-section {
     height: auto;
+  }
+}
+
+button {
+  background-color: white;
+  color: #113f67;
+  border: 1px solid gold;
+  font-size: 6px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 5px 5px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 5px;
+  position: relative;
+  height: 3.2rem;
+}
+
+button:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+}
+button:focus {
+  outline: none;
+}
+
+button a {
+  text-decoration: none;
+  color: #113f67;
+}
+button .circle {
+  position: absolute;
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  animation: scale 0.5s ease-out;
+}
+
+@keyframes scale {
+  to {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
   }
 }

@@ -3,11 +3,14 @@ import "./Sidebar.css";
 import Home from "../Home/Home";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import SidebarList from "./SidebarList";
+
 function Sidebar() {
-  const [expandSidebar, setExpandSidebar] = useState(true);
+  const [expandSidebar, setExpandSidebar] = useState(false); // Change initial state to false
+
   const handleExpandClick = () => {
     setExpandSidebar(!expandSidebar);
   };
+
   return (
     <div className="container-fluid sidebar-section">
       <div className={expandSidebar ? "sidebar-expand sidebar" : "sidebar"}>
