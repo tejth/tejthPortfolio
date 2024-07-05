@@ -4,6 +4,14 @@ import Zoom from "react-reveal/Zoom";
 
 function ProjectList({ name, des, projectlink, techused }) {
   const [show, setShow] = useState(false);
+  const colors = [
+    "#800000",
+    "#001CCE",
+    "#FF8042",
+    "#4B088A",
+    "#FF6347",
+    "#FF1042",
+  ];
 
   const handleShowandCollapse = () => {
     setShow(!show);
@@ -44,7 +52,9 @@ function ProjectList({ name, des, projectlink, techused }) {
                   key={index}
                 >
                   <div className="tech-used-in-project">
-                    <p>{tech.techname}</p>
+                    <p style={{ backgroundColor: colors[index] }}>
+                      {tech.techname}
+                    </p>
                   </div>
                 </div>
               ))}

@@ -23,11 +23,11 @@ function Home({ theme, changeTheme }) {
         </div>
         <div className="container home-content">
           <Fade right>
-            <h1>Hi I'm a </h1>
+            <h1>Hi I'm Tejendra! </h1>
             <h2>
               <Typewriter
                 options={{
-                  strings: ["Frontend Developer!", "Web Developer!"],
+                  strings: ["Frontend Developer.", "Web Developer."],
                   autoStart: true,
                   loop: true,
                 }}
