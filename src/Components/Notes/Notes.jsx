@@ -65,9 +65,6 @@ const Notes = () => {
               )}
             </div>
             <div className="card-content">
-              <h3 className="card-title animated-bg animated-bg-text title">
-                {card ? card.title : "\u00A0"}
-              </h3>
               <p className="card-excerpt excerpt">
                 {card ? card.excerpt : "\u00A0"}
               </p>
