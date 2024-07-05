@@ -5,6 +5,10 @@ function Contact() {
   return (
     <>
       <div className="container contact-section" id="contacti">
+        <div className="section-title" style={{ marginBottom: "5%" }}>
+          <h5>Contact</h5>
+          <span className="line tech-stack-line"></span>
+        </div>
         <div className="row">
           <div className="col-xl-5 col-lg-5 col-md-5 col-sm-5">
             <div className="contact-form-image">

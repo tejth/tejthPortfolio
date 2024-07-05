@@ -51,3 +51,8 @@
     display: none;
   }
 }
+
+.nav-item .active {
+  border-left: 2px solid yellow;
+  color: yellow;
+}

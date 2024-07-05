@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./NavbarMobileView.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FcFlashOn } from "react-icons/fc";
+import Switch from "react-switch";
 
 import {
   FcHome,
@@ -13,7 +14,7 @@ import {
 } from "react-icons/fc";
 import { MdBiotech, MdCastForEducation } from "react-icons/md";
 import { Link } from "react-scroll";
-function NavbarMobileView() {
+function NavbarMobileView({ theme, changeTheme }) {
   const [open, setOpen] = useState(false);
   const handleClick = () => {
     setOpen(!open);
@@ -134,6 +135,10 @@ function NavbarMobileView() {
                 >
                   <FcContacts size={16} /> Contact
                 </Link>
+              </li>
+
+              <li className="nav-item-mobileview">
+                <Switch onChange={changeTheme} checked={theme === "dark"} />
               </li>
             </ul>
           </div>
