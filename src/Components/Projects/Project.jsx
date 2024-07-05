@@ -203,7 +203,7 @@ function Project() {
   ];
   return (
     <>
-      <div className="container">
+      <div className="container" id="projecti">
         <div className="section-title">
           <h5>Projects</h5>
           <span className="line tech-stack-line"></span>

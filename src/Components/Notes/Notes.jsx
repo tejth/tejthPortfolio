@@ -45,7 +45,7 @@ const Notes = () => {
   };
 
   return (
-    <div className="container notes-main">
+    <div className="container notes-main" id="notesi">
       <div className="section-title notes-titlee">
         <h5>Notes</h5>
         <span className="line tech-stack-line"></span>

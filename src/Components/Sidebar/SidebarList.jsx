@@ -12,6 +12,7 @@ import {
   FcAbout,
 } from "react-icons/fc";
 import { MdBiotech, MdCastForEducation } from "react-icons/md";
+import { Link } from "react-scroll";
 
 function SidebarList({ expandSidebar }) {
   return (
@@ -24,28 +25,98 @@ function SidebarList({ expandSidebar }) {
 
           <ul>
             <li className="nav-item">
-              <FcHome size={16} /> Home
+              <Link
+                to="homei"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcHome size={16} /> Home
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="abouti"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcNightPortrait size={16} /> About
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="techi"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <MdBiotech size={16} color="orange" /> Tech Stack
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="projecti"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcTodoList size={16} /> Project
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="experiencei"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcFactory size={16} /> Work Experience
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="edui"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <MdCastForEducation size={16} color="yellow" /> Education
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="notesi"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcKindle size={16} /> Notes
+              </Link>
             </li>
             <li className="nav-item">
-              <FcNightPortrait size={16} /> About
-            </li>
-            <li className="nav-item">
-              <FcFactory size={16} /> Work Experience
-            </li>
-            <li className="nav-item">
-              <MdBiotech size={16} color="orange" /> Tech Stack
-            </li>
-            <li className="nav-item">
-              <MdCastForEducation size={16} color="yellow" /> Education
-            </li>
-            <li className="nav-item">
-              <FcTodoList size={16} /> Project
-            </li>
-            <li className="nav-item">
-              <FcKindle size={16} /> Notes
-            </li>
-            <li className="nav-item">
-              <FcContacts size={16} /> Contact
+              <Link
+                to="contacti"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcContacts size={16} /> Contact
+              </Link>
             </li>
           </ul>
         </div>
@@ -53,30 +124,98 @@ function SidebarList({ expandSidebar }) {
         <div className="navbar-items-only-icons">
           <ul>
             <li className="nav-item">
-              <FcHome size={20} />
-            </li>
-            <li className="nav-item">
-              <FcNightPortrait size={20} />
-            </li>
-            <li className="nav-item">
-              <FcFactory size={20} />
-            </li>
-
-            <li className="nav-item">
-              <MdBiotech size={20} color="orange" />
-            </li>
-            <li className="nav-item">
-              <MdCastForEducation size={20} color="yellow" />
+              <Link
+                to="homei"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcHome size={16} />
+              </Link>
             </li>
 
             <li className="nav-item">
-              <FcTodoList size={20} />
+              <Link
+                to="abouti"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcNightPortrait size={16} />
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="techi"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <MdBiotech size={16} color="orange" />
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="projecti"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcTodoList size={16} />
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="experiencei"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcFactory size={16} />
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="edui"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <MdCastForEducation size={16} color="yellow" />
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="notesi"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcKindle size={16} />
+              </Link>
             </li>
             <li className="nav-item">
-              <FcKindle size={20} />
-            </li>
-            <li className="nav-item">
-              <FcContacts size={20} />
+              <Link
+                to="contacti"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcContacts size={16} />
+              </Link>
             </li>
           </ul>
         </div>

@@ -5,7 +5,7 @@ import MyCv from "../../image/Profile.pdf";
 function Home() {
   return (
     <>
-      <div className="container-fluid home">
+      <div className="container-fluid home" id="homei">
         <div className="container home-content">
           <h1>Hi I'm a </h1>
           <h2>

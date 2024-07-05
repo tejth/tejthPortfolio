@@ -25,7 +25,7 @@ function Education() {
 
   return (
     <>
-      <div className="container edu-sec">
+      <div className="container edu-sec" id="edui">
         <div className="section-title">
           <h5>Education</h5>
           <span className="line tech-stack-line"></span>
