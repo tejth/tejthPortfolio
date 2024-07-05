@@ -25,7 +25,10 @@
   margin-top: 50px;
   border: 5px solid yellow;
   object-fit: cover;
-  margin: 14%;
+  margin: 10%;
+  align-self: center;
+  align-items: center;
+  align-content: center;
 }
 
 .about-details {
