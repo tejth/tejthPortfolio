@@ -9,9 +9,11 @@ import Education from "./Components/Education/Education";
 import Notes from "./Components/Notes/Notes";
 import Contact from "./Components/Contact/Contact";
 import ScrollToTop from "react-scroll-to-top";
+import NavbarMobileView from "./Components/Sidebar/NavbarMobileView";
 function App() {
   return (
     <>
+      <NavbarMobileView />
       <Sidebar />
       <About />
       <TechStack />
