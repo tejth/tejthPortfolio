@@ -1,14 +1,11 @@
-.vttime {
-  margin-left: 180px;
-  margin-top: 10px;
-}
-.work-experience-section {
-  margin: 20px;
+.workexperience-section {
+  margin-top: 70px;
 }
 
-.tech-skills {
-  width: fit-content;
+.timeline-section {
+  margin-top: 20px;
 }
+
 .tech-skills p {
   background-color: black;
   border-radius: 90px;
@@ -22,7 +19,10 @@
   cursor: pointer;
   color: black;
 }
-
 .date-class {
   color: black;
+}
+
+#dark .date-class {
+  color: white;
 }
