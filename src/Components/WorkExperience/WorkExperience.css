@@ -26,3 +26,7 @@
 #dark .date-class {
   color: white;
 }
+
+.vt1 {
+  z-index: -1;
+}

@@ -55,7 +55,7 @@ function WorkExperience() {
         </div>
 
         <div className="vttime">
-          <VerticalTimeline lineColor="#FF1042">
+          <VerticalTimeline className={"vt1"} lineColor="#FF1042">
             {data.map((item, index) => (
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
