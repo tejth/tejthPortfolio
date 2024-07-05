@@ -2,10 +2,24 @@ import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
 import MyCv from "../../image/Profile.pdf";
-function Home() {
+import { BsFillMoonStarsFill, BsMoonStarsFill } from "react-icons/bs";
+import { IoSunny } from "react-icons/io5";
+
+function Home({ theme, changeTheme }) {
   return (
     <>
       <div className="container-fluid home" id="homei">
+        <div className="theme-change" onClick={changeTheme}>
+          {theme === "light" ? (
+            <p>
+              <BsMoonStarsFill size={40} />
+            </p>
+          ) : (
+            <p>
+              <IoSunny size={40} />{" "}
+            </p>
+          )}
+        </div>
         <div className="container home-content">
           <h1>Hi I'm a </h1>
           <h2>
