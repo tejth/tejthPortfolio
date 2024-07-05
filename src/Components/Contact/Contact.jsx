@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import { RiSendPlaneFill } from "react-icons/ri";
 function Contact() {
   return (
     <>
@@ -20,20 +21,33 @@ function Contact() {
               </div>
               <form>
                 <div className="contact-form">
-                  <label className="form-label">Name</label>
+                  <label className="form-lebel">Name</label>
                   <input type="text" className="form-control" />
                 </div>
                 <div className="contact-form">
-                  <label className="form-label">E-mail</label>
+                  <label className="form-lebel">E-mail</label>
                   <input type="text" className="form-control" />
                 </div>
                 <div className="contact-form">
-                  <label className="form-label">Job-Types</label>
+                  <label className="form-lebel">Job-Types</label>
                   <select className="custom-select-tag">
                     <option>Full-Time</option>
                     <option>Mentoring Session</option>
                     <option>Part-Time</option>
                   </select>
+                </div>
+                <div className="contact-form">
+                  <label className="form-lebel">Message</label>
+                  <textarea
+                    rows="4"
+                    type="text"
+                    className="form-control"
+                  ></textarea>
+                </div>
+                <div className="button-submit">
+                  <p>
+                    Send <RiSendPlaneFill size={20} />
+                  </p>
                 </div>
               </form>
             </div>
