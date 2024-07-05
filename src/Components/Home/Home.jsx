@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 import MyCv from "../../image/Profile.pdf";
 import { BsFillMoonStarsFill, BsMoonStarsFill } from "react-icons/bs";
 import { IoSunny } from "react-icons/io5";
+import Fade from "react-reveal/Fade";
 
 function Home({ theme, changeTheme }) {
   return (
@@ -21,25 +22,29 @@ function Home({ theme, changeTheme }) {
           )}
         </div>
         <div className="container home-content">
-          <h1>Hi I'm a </h1>
-          <h2>
-            <Typewriter
-              options={{
-                strings: ["Frontend Developer!", "Web Developer!"],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </h2>
+          <Fade right>
+            <h1>Hi I'm a </h1>
+            <h2>
+              <Typewriter
+                options={{
+                  strings: ["Frontend Developer!", "Web Developer!"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </h2>
+          </Fade>
 
-          <div className="button-for-action">
-            <div className="hire-me-button">Hire Me</div>
-            <div className="get-resume-button">
-              <a href={MyCv} download="Tej_Resume.pdf">
-                Get Resume
-              </a>{" "}
+          <Fade bottom>
+            <div className="button-for-action">
+              <div className="hire-me-button">Hire Me</div>
+              <div className="get-resume-button">
+                <a href={MyCv} download="Tej_Resume.pdf">
+                  Get Resume
+                </a>{" "}
+              </div>
             </div>
-          </div>
+          </Fade>
         </div>
       </div>
     </>
