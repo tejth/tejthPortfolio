@@ -50,7 +50,7 @@ function TechStack() {
       name: "Firebase",
     },
     {
-      name: "Django",
+      name: "NodeJs",
     },
     {
       name: "C++",

@@ -42,6 +42,7 @@ const Carousel = () => {
       setIdx((prevIdx) => (prevIdx + 1) % imgUrls.length);
     }, 2000);
   };
+
   return (
     <>
       <div className="container hobcon " id="hobi">
@@ -52,7 +53,7 @@ const Carousel = () => {
         <div className="carousel">
           <div
             className="image-container"
-            style={{ transform: `translateX(${-idx * 500}px)` }}
+            style={{ transform: `translateX(${-idx * 100}%)` }}
           >
             {imgUrls.map((url, index) => (
               <img
