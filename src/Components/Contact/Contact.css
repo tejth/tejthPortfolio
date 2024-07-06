@@ -35,7 +35,7 @@
 }
 
 #dark .contact-form input {
-  background-color: #38004c;
+  background-color: white;
   border: 2px solid rgb(149, 149, 27);
 }
 
@@ -47,7 +47,7 @@
 }
 
 #dark .contact-form textarea {
-  background-color: #38004c;
+  background-color: white;
   border: 2px solid rgb(149, 149, 27);
 }
 
@@ -60,9 +60,9 @@
 }
 
 #dark .custom-select-tag {
-  background-color: #38004c;
+  background-color: white;
   border: 2px solid rgb(149, 149, 27);
-  color: white;
+  color: balck;
 }
 
 .button-submit p {

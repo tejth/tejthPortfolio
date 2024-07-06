@@ -6,7 +6,7 @@
 
 .navbar-header {
   width: 100%;
-  background-color: brown;
+  background-color: #393e46;
   color: white;
   padding: 1px;
 }
@@ -20,7 +20,7 @@
 .mobile-nav {
   height: auto;
   width: 210px;
-  background-color: brown;
+  background-color: #393e46;
   margin-top: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
