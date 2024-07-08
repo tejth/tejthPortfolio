@@ -36,7 +36,7 @@ function App() {
       {loading ? (
         <div id="loading-screen">
           <img
-            src="https://cdn.dribbble.com/users/1319489/screenshots/3378220/media/6c60092cfd46a2024facb9e6de731bcc.gif"
+            src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*U2RiSXJx8U9K4thZ.gif"
             alt="loading..."
             a
           />
