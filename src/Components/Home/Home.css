@@ -3,13 +3,79 @@
   color: white;
   margin-left: 12%;
   width: auto;
+  display: flex;
+  flex-direction: row;
 }
 
 .home-content {
   padding: 10px;
   margin-top: 100px;
+  display: flex;
+  /* flex-direction: column; */
 }
 
+.headandothers {
+  display: flex;
+  flex-direction: column;
+}
+
+/* /////////////// */
+.showcase {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16rem;
+}
+
+.showcase div {
+  padding: 2%;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 20px var(--black-alpha-10);
+  height: 30px;
+  width: 30px;
+}
+.app__flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.py {
+  margin-left: 5rem;
+  margin-top: 1.5rem;
+}
+.react {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: center;
+  margin-left: 5rem;
+  margin-top: 3.5rem;
+}
+
+.redux {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: center;
+  /* margin-left: 5rem; */
+  margin-top: 2rem;
+}
+
+.redux img {
+  height: 20px;
+  width: 20px;
+}
+
+/* Add this to your App.css or any other relevant CSS file */
+@media (max-width: 768px) {
+  .showcase {
+    margin-left: 12rem;
+  }
+}
+
+/* /////////// */
 .home-content h3 {
   margin-top: 30px;
   color: rgb(242, 227, 13);
@@ -66,16 +132,16 @@
 
 .theme-change {
   justify-content: center;
-  height: 50px;
-  width: 50px;
-  background-color: #001cce;
+  height: 30px;
+  width: 30px;
+  background: #00204a;
   right: 0;
-  margin-right: 10px;
+  /* margin-right: 10px; */
   text-align: center;
-  vertical-align: middle;
-  line-height: 50px;
+  /* vertical-align: middle; */
+  /* line-height: 30px; */
   position: fixed;
-  top: 150;
+  /* top: 150; */
   margin-top: 250px;
   border-radius: 5px;
   cursor: pointer;
@@ -103,14 +169,14 @@
 
 .theme-change {
   justify-content: center;
-  height: 50px;
-  width: 50px;
-  background-color: #001cce;
+  height: 30px;
+  width: 30px;
+  /* background-color: #001cce; */
   right: 0;
   margin-right: 10px;
   text-align: center;
   vertical-align: middle;
-  line-height: 50px;
+  /* line-height: 50px; */
   position: fixed;
   top: 150;
   /* margin-top: 250px; */
