@@ -23,12 +23,20 @@ function App() {
   };
 
   useEffect(() => {
+    // Change body background color when loading
+    document.body.style.backgroundColor = "#172027";
+
     // Simulate a loading delay (e.g., fetch data, load resources)
     const timer = setTimeout(() => {
       setLoading(false);
+      // Revert body background color after loading
+      document.body.style.backgroundColor = "";
     }, 2000); // 2 seconds
 
-    return () => clearTimeout(timer); // Cleanup the timer
+    return () => {
+      clearTimeout(timer);
+      document.body.style.backgroundColor = "#172027"; // Cleanup the background color on unmount
+    };
   }, []);
 
   return (
@@ -38,7 +46,6 @@ function App() {
           <img
             src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*U2RiSXJx8U9K4thZ.gif"
             alt="loading..."
-            a
           />
         </div>
       ) : (

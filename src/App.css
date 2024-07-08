@@ -2,9 +2,6 @@
   width: 8px;
   height: auto;
 }
-body {
-  background: #172027;
-}
 
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px rgb(103, 100, 109);
@@ -35,6 +32,6 @@ body {
 @media (min-width: 768px) {
   #loading-screen {
     margin-top: 10%;
-    margin-left: 40%;
+    margin-left: 42%;
   }
 }
