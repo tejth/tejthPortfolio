@@ -50,9 +50,9 @@ function About() {
             </Flip>
 
             <Fade right>
-              <p>
-                Hey there! I'm Tejendra, a passionate BTech student with a knack
-                for crafting delightful user experiences through frontend
+              <p className="abtpara animated-text">
+                Voilà! I'm Tejendra, a passionate BTech student with a knack for
+                crafting delightful user experiences through frontend
                 development. Currently immersed in the dynamic world of web
                 technologies. I specialize in harnessing HTML, CSS, and
                 JavaScript to breathe life into web interfaces. Whether it's

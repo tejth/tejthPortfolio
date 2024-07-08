@@ -94,6 +94,56 @@ button {
   height: 3.2rem;
 }
 
+.abtpara {
+  font-family: sans-serif;
+  line-height: 2;
+}
+
+.animated-text {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+.animated-text p {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #333;
+  animation: fadeIn 2s ease-in-out, slideIn 3s ease-in-out,
+    colorChange 4s infinite alternate;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(30px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    color: #333;
+  }
+  50% {
+    color: #007bff;
+  }
+  100% {
+    color: #28a745;
+  }
+}
+
 button:hover {
   background-color: #d5def5;
   transition: background-color 0.3s ease;
