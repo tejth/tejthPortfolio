@@ -36,8 +36,9 @@ function App() {
       {loading ? (
         <div id="loading-screen">
           <img
-            src="https://aster.ng/wp-content/uploads/2019/12/186124-full_ajax-loading-gif-transparent-background-0425.gif"
+            src="https://cdn.dribbble.com/users/1319489/screenshots/3378220/media/6c60092cfd46a2024facb9e6de731bcc.gif"
             alt="loading..."
+            a
           />
         </div>
       ) : (

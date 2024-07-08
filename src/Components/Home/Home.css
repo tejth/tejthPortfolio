@@ -71,7 +71,7 @@
 /* Add this to your App.css or any other relevant CSS file */
 @media (max-width: 768px) {
   .showcase {
-    margin-left: 12rem;
+    display: none;
   }
 }
 
