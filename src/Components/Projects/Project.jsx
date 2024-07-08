@@ -27,21 +27,15 @@ function Project() {
       ],
     },
     {
-      name: "DriveBook",
+      name: "Disease Prediction System",
       des: "Allows booking of self driven vehicles based on various Filters",
       projectlink: "https://drive.google.com/drive/u/1/home",
       techused: [
         {
-          techname: "ReactJs",
+          techname: "Python",
         },
         {
-          techname: "CSS",
-        },
-        {
-          techname: "Redux",
-        },
-        {
-          techname: "Firebase",
+          techname: "Streamlit",
         },
       ],
     },
@@ -66,17 +60,14 @@ function Project() {
           techname: "ReactJS",
         },
         {
-          techname: "Python",
-        },
-        {
           techname: "Firebase",
         },
       ],
     },
     {
       name: "Todo List app",
-      des: "A simple To do list app based on LocalStorage. ",
-      projectlink: "https://drive.google.com/drive/u/1/home",
+      des: "A simple To do list app that allows you to add your task that have to be completed . ",
+      projectlink: "https://tejth-todo.netlify.app/",
       techused: [
         {
           techname: "HTML",
@@ -98,7 +89,7 @@ function Project() {
     {
       name: "Google Clone",
       des: "Google clone that allows you to search and get results similar to google.",
-      projectlink: "https://drive.google.com/drive/u/1/home",
+      projectlink: "https://searchapptejth.netlify.app",
       techused: [
         {
           techname: "HTML",
@@ -131,9 +122,9 @@ function Project() {
       ],
     },
     {
-      name: "NotesApp",
-      des: "Aloows you to write Notes.",
-      projectlink: "https://drive.google.com/drive/u/1/home",
+      name: "CurrencyConvertor",
+      des: "Allows you to convert currency of one country to another",
+      projectlink: "https://tejth-currencyconvertor.netlify.app",
       techused: [
         {
           techname: "HTML",
@@ -148,7 +139,7 @@ function Project() {
     },
     {
       name: "WeatherLocator",
-      des: "Allows you to write Notes.",
+      des: "Get instant Weather of Your City With Weather information.",
       projectlink: "https://drive.google.com/drive/u/1/home",
       techused: [
         {
@@ -166,9 +157,9 @@ function Project() {
       ],
     },
     {
-      name: "ThemeSwitcher",
-      des: "Demonstrates How to change background color of a webpage.",
-      projectlink: "https://drive.google.com/drive/u/1/home",
+      name: "Drawing WebApp",
+      des: "A simple Webpage That allows you to draw on screen similar to paint app",
+      projectlink: "https://tejth-drawingapp.netlify.app/",
       techused: [
         {
           techname: "HTML",
@@ -185,9 +176,9 @@ function Project() {
       ],
     },
     {
-      name: "Pokedex",
-      des: "Shows Different Pokemons in the form of cards in an interactive Way",
-      projectlink: "https://drive.google.com/drive/u/1/home",
+      name: "Codepen Clone",
+      des: "Real Time codeEditor for html , css and Js that allows you to write code and display resukt immediately.",
+      projectlink: "https://tejth-codepen.netlify.app/",
       techused: [
         {
           techname: "HTML",

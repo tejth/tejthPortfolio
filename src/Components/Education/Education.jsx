@@ -11,8 +11,8 @@ function Education() {
     {
       name: "S.T Francis Inter College.",
       degree: "Science + Maths + Computer",
-      year: "2022",
-      des: "Done My Schooling from CBSE school , Got 84% in class 10th and 82% in class 12th. ",
+      year: "2022(Passed)",
+      des: "Done My Schooling from CBSE Board, Got 84% in class 10th and 82% in class 12th. ",
     },
     {
       name: "JECRC University Jaipur",

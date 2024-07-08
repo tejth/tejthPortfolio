@@ -37,15 +37,27 @@ function Home({ theme, changeTheme }) {
 
           <Fade bottom>
             <div className="button-for-action">
-              <div className="hire-me-button">Hire Me</div>
+              <div className="hire-me-button">
+                <button class="button-86" role="button">
+                  <a
+                    style={{ textDecoration: "none", color: "white" }}
+                    href="#contacti"
+                  >
+                    Hire Me
+                  </a>
+                </button>
+              </div>
               <div className="get-resume-button">
-                <a href={MyCv} download="Tej_Resume.pdf">
-                  Get Resume
-                </a>{" "}
+                <button class="button-86" role="button">
+                  <a href={MyCv} download="Tej_Resume.pdf">
+                    Get Resume
+                  </a>
+                </button>
               </div>
             </div>
           </Fade>
         </div>
+        <div className="app"></div>
       </div>
     </>
   );

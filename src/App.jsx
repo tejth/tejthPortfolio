@@ -1,4 +1,4 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useState, useEffect } from "react";
 import "./App.css";
 import Sidebar from "./Components/Sidebar/Sidebar";
 import About from "./Components/About/About";
@@ -16,26 +16,44 @@ export const ThemeContext = createContext(null);
 
 function App() {
   const [theme, setTheme] = useState("light");
+  const [loading, setLoading] = useState(true);
 
   const changeTheme = () => {
     setTheme((prev) => (prev === "light" ? "dark" : "light"));
   };
 
+  useEffect(() => {
+    // Simulate a loading delay (e.g., fetch data, load resources)
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000); // 2 seconds
+
+    return () => clearTimeout(timer); // Cleanup the timer
+  }, []);
+
   return (
     <ThemeContext.Provider value={{ theme, changeTheme }}>
-      <div id={theme}>
-        <NavbarMobileView changeTheme={changeTheme} theme={theme} />
-        <Sidebar changeTheme={changeTheme} theme={theme} />
-        <About />
-        <TechStack />
-        <Project />
-        <WorkExperience />
-        <Education />
-        <Notes />
-        <Hobbies />
-        <Contact />
-      </div>
-
+      {loading ? (
+        <div id="loading-screen">
+          <img
+            src="https://aster.ng/wp-content/uploads/2019/12/186124-full_ajax-loading-gif-transparent-background-0425.gif"
+            alt="loading..."
+          />
+        </div>
+      ) : (
+        <div id={theme}>
+          <NavbarMobileView changeTheme={changeTheme} theme={theme} />
+          <Sidebar changeTheme={changeTheme} theme={theme} />
+          <About />
+          <TechStack />
+          <Project />
+          <WorkExperience />
+          <Education />
+          <Notes />
+          <Hobbies />
+          <Contact />
+        </div>
+      )}
       <ScrollToTop
         smooth={true}
         color="white"
