@@ -50,19 +50,20 @@ function About() {
             </Flip>
 
             <Fade right>
-              <p className="abtpara animated-text">
-                Voilà! I'm Tejendra, a passionate BTech student with a knack for
-                crafting delightful user experiences through frontend
-                development. Currently immersed in the dynamic world of web
-                technologies. I specialize in harnessing HTML, CSS, and
-                JavaScript to breathe life into web interfaces. Whether it's
-                responsive designs that adapt seamlessly across devices or
-                optimizing user journeys through intuitive UX/UI. Beyond coding,
-                I am always exploring the latest trends in frontend frameworks
-                like React.. constantly refining my skills. Currenly Learning
-                Backend with NodeJs. Let's connect and discuss how we can
-                elevate digital experiences together!
-              </p>
+              <div className="squre">
+                <span></span>
+                <span></span>
+                <span></span>
+                <div className="content">
+                  <h2>Voilà! I am Tejendra</h2>
+                  <p>
+                    A passionate frontend developer with a flair for crafting
+                    beautiful and responsive web applications.
+                    <br />
+                    When I'm not coding , I am eating pani puri. 😋
+                  </p>
+                </div>
+              </div>
             </Fade>
           </div>
         </div>
