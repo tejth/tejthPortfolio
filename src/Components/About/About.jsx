@@ -3,6 +3,9 @@ import "./About.css";
 import ProfilePic from "../../image/profile.jpg";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
+import { CiLinkedin } from "react-icons/ci";
+import { FaGithub, FaFacebook } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 function About() {
   const [ripples, setRipples] = useState([]);
@@ -55,10 +58,11 @@ function About() {
                 <span></span>
                 <span></span>
                 <div className="content">
-                  <h2>Voilà! I am Tejendra</h2>
+                  <h2>Voilà! I am Tejendra!</h2>
                   <p>
                     A passionate frontend developer with a flair for crafting
-                    beautiful and responsive web applications.
+                    beautiful and responsive web applications.Currently
+                    exploring world of Data Science.
                     <br />
                     When I'm not coding , I am eating pani puri. 😋
                   </p>
@@ -79,7 +83,7 @@ function About() {
         >
           <button className="ripple">
             <span className="ripple-container"></span>
-            LinkedIN
+            <CiLinkedin />
           </button>
         </a>
         <a
@@ -91,7 +95,7 @@ function About() {
         >
           <button className="ripple">
             <span className="ripple-container"></span>
-            Github
+            <FaGithub />
           </button>
         </a>
         <a
@@ -103,7 +107,7 @@ function About() {
         >
           <button className="ripple">
             <span className="ripple-container"></span>
-            LeetCode
+            <SiLeetcode />
           </button>
         </a>
         <a
@@ -115,7 +119,7 @@ function About() {
         >
           <button className="ripple">
             <span className="ripple-container"></span>
-            Facebook
+            <FaFacebook />
           </button>
         </a>
         {ripples.map((ripple, index) => (

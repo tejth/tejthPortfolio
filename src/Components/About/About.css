@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+#light #abouti {
+  background-color: #e2f5e2;
+}
+
 .about-section {
   box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
   margin-top: 50px;
@@ -49,7 +53,8 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Ensure buttons wrap in smaller screens */
+  flex-direction: row; /* Ensure row direction on all screens */
 }
 
 .about-title h5 {
@@ -143,34 +148,6 @@ button {
   }
 }
 
-button:hover {
-  background-color: #abdbe3;
-  transition: background-color 0.3s ease;
-}
-
-#dark button:hover {
-  background-color: rgba(235, 152, 86, 255);
-}
-
-button:focus {
-  outline: none;
-}
-
-button a {
-  text-decoration: none;
-  color: #113f67;
-}
-
-button .circle {
-  position: absolute;
-  background-color: #fff;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  animation: scale 0.5s ease-out;
-}
-
 @keyframes scale {
   to {
     transform: translate(-50%, -50%) scale(3);
@@ -178,7 +155,7 @@ button .circle {
   }
 }
 
-/* Squre Animation and Style */
+/* Square Animation and Style */
 .squre {
   position: relative;
   width: 80%;
@@ -319,11 +296,6 @@ button .circle {
     margin-top: 3rem;
   }
 
-  .buttonnn {
-    flex-direction: column;
-    gap: 10px;
-  }
-
   .squre .content {
     padding: 12px;
   }
@@ -342,4 +314,53 @@ button .circle {
   .squre .content {
     padding: 10px;
   }
+}
+
+/* Base Styles */
+button {
+  background-color: #0a0a22;
+  color: white;
+  border: 1px solid gold;
+  font-size: 1.5rem; /* Adjusted for icon size */
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 3.2rem;
+  width: 3.2rem;
+  margin: 5px;
+}
+
+/* Hover and Focus States */
+button:hover {
+  background-color: #abdbe3;
+  transition: background-color 0.3s ease;
+}
+
+#dark button:hover {
+  background-color: rgba(235, 152, 86, 255);
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Ripple Effect */
+button .ripple-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+button .circle {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  animation: scale 0.5s ease-out;
 }

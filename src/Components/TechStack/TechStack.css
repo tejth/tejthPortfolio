@@ -1,30 +1,41 @@
 .techstack-section {
-  margin-top: 40px;
-  height: auto;
-  margin-bottom: 40px;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2%;
 }
 
-.section-title h5 {
-  text-align: center;
+@media (min-width: 768px) {
+  .techstack-section {
+    margin-left: 9%;
+    padding: 0 5%;
+  }
+}
+
+#dark .techstack-section {
+  background-color: #38004c;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
 }
 
 .tech-content {
   padding: 10px;
   color: black;
-  margin-top: 50px;
-
+  margin: 20px auto;
+  max-width: 250px;
   box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
-  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
-  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+}
+
+#light #techi {
+  background-color: #fdf3e7;
 }
 
 #dark .tech-content {
   background-color: #38004c;
   color: white;
-
   box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
-  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
-  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
 }
 
 #dark .tech-content:hover {
@@ -39,8 +50,8 @@
 
 .tech-content p {
   text-align: center;
-  padding-top: 30px;
-  font-size: 20px;
+  padding-top: 10px;
+  font-size: 18px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -50,12 +61,10 @@
   cursor: pointer;
   transition-duration: 1s;
   box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
-  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
-  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
 }
 
 .tech-number {
-  border-radius: 90px;
+  border-radius: 50%;
   height: 50px;
   width: 50px;
   color: white;
@@ -64,7 +73,7 @@
   justify-content: center;
   display: block;
   margin: 0 auto;
-  margin-top: -30px;
+  margin-top: -25px;
   line-height: 50px;
 }
 
@@ -75,16 +84,94 @@
   color: white;
   text-align: center;
   justify-content: center;
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 35px;
+  display: block;
+  margin: 35px auto 40px;
   border-radius: 5px;
-  margin-bottom: 40px;
   cursor: pointer;
 }
 
 .load-more-tech-stack:hover {
   background-color: blueviolet;
   transition-duration: 1s;
+}
+
+@media (max-width: 576px) {
+  .tech-content {
+    margin-top: 20px;
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .tech-content {
+    max-width: 45%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .tech-content {
+    max-width: 30%;
+  }
+}
+
+@media (min-width: 993px) {
+  .tech-content {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .techstack-section {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .techstack-section .section-title h5 {
+    margin-left: 0;
+  }
+
+  .techstack-section .line {
+    margin: 0 auto;
+  }
+
+  .techstack-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .techstack-section {
+    margin-left: 0;
+    padding: 0 3%;
+  }
+
+  .tech-content {
+    margin-top: 3rem;
+  }
+
+  .techstack-section .buttonnn {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .tech-content {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .techstack-section .tech-content img {
+    max-width: 150px;
+  }
+
+  .tech-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .tech-content {
+    padding: 10px;
+  }
 }

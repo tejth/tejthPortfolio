@@ -3,25 +3,65 @@ import "./TechStack.css";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
 
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaBootstrap,
+  FaReact,
+  FaGitAlt,
+  FaPython,
+  FaNodeJs,
+} from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
+import { SiRedux, SiNumpy, SiGeopandas, SiMobxstatetree } from "react-icons/si";
+import { GiSeaTurtle } from "react-icons/gi";
+import { GrMysql } from "react-icons/gr";
+import { TbBrandCpp } from "react-icons/tb";
+
 function TechStack() {
   const data = [
-    { name: "HTML", pdf: "/pdfs/html.pdf" },
-    { name: "CSS", pdf: "/pdfs/css.pdf" },
-    { name: "Bootstrap", pdf: "/pdfs/bootstrap.pdf" },
-    { name: "TailWind CSS", pdf: "https://tailwind.build/classes" },
-    { name: "JavaScript", pdf: "/pdfs/javascript.pdf" },
-    { name: "ReactJS", pdf: "/pdfs/reactjs.pdf" },
-    { name: "Redux", pdf: "/pdfs/redux.pdf" },
-    { name: "Zustand", pdf: "/pdfs/zustand.pdf" },
-    { name: "GIT", pdf: "/pdfs/git.pdf" },
-    { name: "Python", pdf: "https://github.com/tejth/Python" },
-    { name: "Numpy", pdf: "https://github.com/tejth/Python" },
-    { name: "Pandas", pdf: "https://github.com/tejth/Python" },
-    { name: "Turtle", pdf: "/pdfs/turtle.pdf" },
-    { name: "SQLite3", pdf: "https://docs.python.org/3/library/sqlite3.html" },
-    { name: "Firebase", pdf: "/pdfs/firebase.pdf" },
-    { name: "NodeJs", pdf: "/pdfs/nodejs.pdf" },
-    { name: "C++", pdf: "/pdfs/cpp.pdf" },
+    { name: "HTML", pdf: "/pdfs/html.pdf", icon: <FaHtml5 /> },
+    { name: "CSS", pdf: "/pdfs/css.pdf", icon: <FaCss3Alt /> },
+    { name: "Bootstrap", pdf: "/pdfs/bootstrap.pdf", icon: <FaBootstrap /> },
+    {
+      name: "TailWind CSS",
+      pdf: "https://tailwind.build/classes",
+      icon: <RiTailwindCssFill />,
+    },
+    {
+      name: "JavaScript",
+      pdf: "/pdfs/javascript.pdf",
+      icon: <IoLogoJavascript />,
+    },
+    { name: "ReactJS", pdf: "/pdfs/reactjs.pdf", icon: <FaReact /> },
+    { name: "Redux", pdf: "/pdfs/redux.pdf", icon: <SiRedux /> },
+    { name: "Zustand", pdf: "/pdfs/zustand.pdf", icon: <SiMobxstatetree /> },
+    { name: "GIT", pdf: "/pdfs/git.pdf", icon: <FaGitAlt /> },
+    {
+      name: "Python",
+      pdf: "https://github.com/tejth/Python",
+      icon: <FaPython />,
+    },
+    {
+      name: "Numpy",
+      pdf: "https://github.com/tejth/Python",
+      icon: <SiNumpy />,
+    },
+    {
+      name: "Pandas",
+      pdf: "https://github.com/tejth/Python",
+      icon: <SiGeopandas />,
+    },
+    { name: "Turtle", pdf: "/pdfs/turtle.pdf", icon: <GiSeaTurtle /> },
+    {
+      name: "SQLite3",
+      pdf: "https://docs.python.org/3/library/sqlite3.html",
+      icon: <GrMysql />,
+    },
+    { name: "Firebase", pdf: "/pdfs/firebase.pdf", icon: <IoLogoFirebase /> },
+    { name: "NodeJs", pdf: "/pdfs/nodejs.pdf", icon: <FaNodeJs /> },
+    { name: "C++", pdf: "/pdfs/cpp.pdf", icon: <TbBrandCpp /> },
   ];
 
   const colors = [
@@ -44,7 +84,7 @@ function TechStack() {
     "#3498DB ",
   ];
 
-  const [showMoreTechStack, setShowMoreTechStack] = useState(12);
+  const [showMoreTechStack, setShowMoreTechStack] = useState(9);
   const loadMore = () => {
     setShowMoreTechStack((prev) => prev + 3);
   };
@@ -89,7 +129,7 @@ function TechStack() {
                     className="tech-number"
                     style={{ backgroundColor: colors[index] }}
                   >
-                    {index + 1}
+                    {item.icon}
                   </span>
                   <p>{item.name}</p>
                 </div>
