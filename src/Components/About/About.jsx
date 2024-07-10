@@ -50,7 +50,7 @@ function About() {
             </Flip>
 
             <Fade right>
-              <div className="squre">
+              <div className="squre ">
                 <span></span>
                 <span></span>
                 <span></span>
