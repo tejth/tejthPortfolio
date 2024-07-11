@@ -105,7 +105,7 @@ function TechStack() {
 
   return (
     <>
-      <div className="container techstack-section" id="techi">
+      <div className="container tecccc techstack-section" id="techi">
         <div className="section-title">
           <h5>Tech Stack</h5>
           <span className="line tech-stack-line"></span>

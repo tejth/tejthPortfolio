@@ -15,7 +15,7 @@ import Hobbies from "./Components/Hobbies/Hobbies";
 export const ThemeContext = createContext(null);
 
 function App() {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
   const [loading, setLoading] = useState(true);
 
   const changeTheme = () => {
