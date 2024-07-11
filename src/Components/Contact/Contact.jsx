@@ -4,6 +4,7 @@ import { RiSendPlaneFill } from "react-icons/ri";
 import Fade from "react-reveal/Fade";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../../../firebase";
+import { IoMdSend } from "react-icons/io";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -102,7 +103,7 @@ function Contact() {
                   </div>
                   <div className="button-submit">
                     <button type="submit">
-                      Send <RiSendPlaneFill size={20} />
+                      <IoMdSend size={45} />
                     </button>
                   </div>
                 </form>

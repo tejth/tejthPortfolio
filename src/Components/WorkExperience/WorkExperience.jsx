@@ -45,7 +45,7 @@ function WorkExperience() {
       ],
     },
   ];
-  const colors = ["#800000", "#FF8042", "#4B088A", "#FF6347", "#FF1042"];
+  const colors = ["#e7c89c", "#FF8042", "#4B088A", "#FF6347", "#FF1042"];
   return (
     <>
       <div className="container  work-experience-section" id="experiencei">

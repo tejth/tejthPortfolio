@@ -21,7 +21,8 @@ function Education() {
       des: "Persuing my Btech from JECRC University Jaipur.",
     },
   ];
-  const colors = ["#001CCE", "#00C49F"];
+
+  const colors = ["#74caf9", "#00C49F"];
 
   return (
     <>
