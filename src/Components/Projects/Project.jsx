@@ -8,6 +8,7 @@ function Project() {
       name: "Alexa A.I",
       des: "A Voice Assistant A.I Similar to chatGpt that receives requests from user either through mic or keyboard  and send responses . It also performs basic taks such as opening application , Playing Music , Telling Weather etc..",
       projectlink: "https://drive.google.com/drive/u/1/home",
+      sourcelink: "",
       techused: [
         {
           techname: "Python",
@@ -27,15 +28,27 @@ function Project() {
       ],
     },
     {
-      name: "Disease Prediction System",
-      des: "Allows booking of self driven vehicles based on various Filters",
+      name: "SymptoCare",
+      des: "Medical Recommendation tool that gives information about medicines and precautions based on the symptoms entered by the user . Utilizees Machine Learning alogorithm to give results accurately based on input.",
       projectlink: "https://drive.google.com/drive/u/1/home",
       techused: [
         {
           techname: "Python",
         },
         {
-          techname: "Streamlit",
+          techname: "HTML",
+        },
+        {
+          techname: "CSS",
+        },
+        {
+          techname: "Numpy",
+        },
+        {
+          techname: "Pandas",
+        },
+        {
+          techname: "Scikit Learn",
         },
       ],
     },
@@ -90,6 +103,7 @@ function Project() {
       name: "Google Clone",
       des: "Google clone that allows you to search and get results similar to google.",
       projectlink: "https://searchapptejth.netlify.app",
+      sourcelink: "",
       techused: [
         {
           techname: "HTML",

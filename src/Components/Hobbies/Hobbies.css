@@ -1,56 +1,78 @@
-.carousel {
-  position: relative;
-  width: 100%;
-  max-width: 500px; /* Set a maximum width */
-  height: auto; /* Let the height adjust based on the content */
-  overflow: hidden;
-  margin: auto;
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.image-container {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  width: 100%;
-}
-
-.image-container img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.buttons-container {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%);
-}
-
-.btn {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: rgba(0, 0, 0, 0.7);
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .hobcon {
   margin-top: 8%;
+  background-color: rgba(208, 224, 255, 255);
+  width: 100%;
+  max-width: 100%;
 }
 
-@media (max-width: 767px) {
-  .carousel {
-    max-width: 100%; /* Adjust the width for smaller screens */
-  }
+/* Image Card Album Styles */
+.image-card-album {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  max-width: 1100px;
+  margin: auto;
+}
 
-  .buttons-container {
-    top: 90%; /* Adjust the position of the buttons for smaller screens */
-    transform: translateY(-50%);
+.card {
+  position: relative;
+  max-width: 320px;
+  background: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.card:hover {
+  height: 360px;
+}
+
+.imgbox {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.imgbox img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -20px;
+  transition-delay: 0.3s;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .image-card-album {
+    max-width: 100%;
+    padding: 10px;
   }
 }

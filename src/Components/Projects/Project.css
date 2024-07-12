@@ -110,6 +110,18 @@
   margin: 5px;
 }
 
+/* Project.css */
+
+.tech-used-in-project p {
+  background-color: tomato;
+  color: white;
+  border-radius: 90px;
+  padding: 8px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* width: fit-content; */ /* Remove fixed width */
+}
+
 .tech-used-in-project p:hover {
   background-color: black;
 }
@@ -124,7 +136,7 @@
 }
 
 .live-demo-button {
-  background-color: brown;
+  /* background-color: brown; */
   border-radius: 90px;
   width: fit-content;
   margin: 5px;
@@ -132,7 +144,7 @@
 }
 
 .live-demo-button:hover {
-  background-color: blueviolet;
+  background-color: wheat;
   transition-duration: 1s;
 }
 

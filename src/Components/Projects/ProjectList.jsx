@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import { FcExpand, FcCollapse } from "react-icons/fc";
 import Zoom from "react-reveal/Zoom";
 
-function ProjectList({ name, des, projectlink, techused }) {
+function ProjectList({ name, des, projectlink, techused, sourcelink }) {
   const [show, setShow] = useState(false);
   const colors = [
-    "#800000",
-    "#001CCE",
+    "rgba(20,201,148,255)",
+    "rgb(37, 150, 190)",
     "#FF8042",
-    "#4B088A",
+    "rgba(235,118,98,255)",
     "#FF6347",
     "#FF1042",
   ];
@@ -35,7 +35,11 @@ function ProjectList({ name, des, projectlink, techused }) {
 
           <div className="description">
             {show ? (
-              <p>{des}</p>
+              <ul>
+                {des.split("\n").map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
             ) : (
               <p>
                 {des.substring(0, 50)}...
@@ -59,10 +63,16 @@ function ProjectList({ name, des, projectlink, techused }) {
                 </div>
               ))}
           </div>
-          <div className="live-demo-button">
-            <a target="_" href={projectlink}>
-              Live Demo
-            </a>
+
+          <div className="button-container">
+            <div className="project-button">
+              <a className="live-demo-button" target="_" href={projectlink}>
+                Live Demo
+              </a>
+              <a className="source-code-button" target="_" href={sourcelink}>
+                Source Code
+              </a>
+            </div>
           </div>
         </div>
       </Zoom>
