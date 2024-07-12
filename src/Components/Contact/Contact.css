@@ -9,11 +9,6 @@
   max-width: 100%;
 }
 
-@media (min-width: 768px) {
-  .contact-section {
-    margin-left: 1rem;
-  }
-}
 .contact-form-design {
   margin-top: 50px;
 }

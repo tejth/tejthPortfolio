@@ -58,7 +58,7 @@ function Contact() {
             <div className="col-xl-7 col-lg-7 col-md-7 col-sm-7">
               <div className="contact-form-design">
                 <div className="text-center">
-                  <h5>Contact me</h5>
+                  <h5 style={{ fontWeight: "800" }}>Contact me</h5>
                 </div>
                 <form onSubmit={handleSubmit}>
                   <div className="contact-form">
