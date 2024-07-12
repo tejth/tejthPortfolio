@@ -16,6 +16,10 @@ body {
   max-width: 100%;
 }
 
+#dark .hobcon {
+  background-color: #46045e;
+}
+
 /* Image Card Album Styles */
 .image-card-album {
   display: flex;

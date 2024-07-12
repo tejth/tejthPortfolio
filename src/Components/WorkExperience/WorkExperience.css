@@ -1,7 +1,11 @@
 .work-experience-section {
   margin-top: 6%;
+  background-color: #fcf1cb;
+  max-width: 100%;
 }
-
+#dark .work-experience-section {
+  background-color: #46045e;
+}
 .timeline-section {
   margin-top: 20px;
 }
