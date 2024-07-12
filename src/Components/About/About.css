@@ -16,7 +16,7 @@
 }
 @media (min-width: 768px) {
   .about-section {
-    margin-left: 7%;
+    margin-left: 2rem;
     padding: 0 5%;
     width: 100%;
   }
@@ -371,11 +371,4 @@ button .circle {
   border-radius: 50%;
   transform: translate(-50%, -50%) scale(0);
   animation: scale 0.5s ease-out;
-}
-@media (max-width: 991px) {
-  .col-xl-6,
-  .col-lg-6 {
-    flex-basis: 100%;
-    max-width: 100%;
-  }
 }

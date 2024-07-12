@@ -6,6 +6,7 @@ import Flip from "react-reveal/Flip";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub, FaFacebook } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import { FaMedium } from "react-icons/fa6";
 
 function About() {
   const [ripples, setRipples] = useState([]);
@@ -108,6 +109,18 @@ function About() {
           <button className="ripple">
             <span className="ripple-container"></span>
             <SiLeetcode />
+          </button>
+        </a>
+        <a
+          href="https://medium.com/@ptejendra91"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ripple-link"
+          onClick={handleClick}
+        >
+          <button className="ripple">
+            <span className="ripple-container"></span>
+            <FaMedium />
           </button>
         </a>
         <a
