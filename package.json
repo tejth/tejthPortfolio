@@ -29,6 +29,7 @@
     "react-scroll-to-top": "^3.0.0",
     "react-switch": "^7.0.0",
     "react-vertical-timeline-component": "^3.6.0",
+    "swiper": "^11.1.4",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {

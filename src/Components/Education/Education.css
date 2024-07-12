@@ -2,3 +2,25 @@
   margin-top: 6%;
   margin-bottom: 6%;
 }
+
+@media (min-width: 768px) {
+  .edu-sec {
+    margin-left: 8rem;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .edu-sec {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .vertical-timeline-element-title,
+  .vertical-timeline-element-subtitle {
+    font-size: 16px;
+  }
+
+  .vertical-timeline-element--work {
+    padding: 10px;
+  }
+}

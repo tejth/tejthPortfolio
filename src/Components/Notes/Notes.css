@@ -16,6 +16,56 @@ img {
   padding: 0 2%;
 }
 
+.main-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 2%;
+}
+
+@media (min-width: 768px) {
+  .notes-main {
+    margin-left: 8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-div {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .notes-main {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .main-div {
+    justify-content: center;
+  }
+
+  .card {
+    width: 250px;
+    margin: 15px;
+  }
+
+  .face.face1,
+  .face.face2 {
+    width: 250px;
+    height: 180px;
+  }
+
+  .face.face1 .content h3 {
+    font-size: 1.2em;
+  }
+
+  .face.face2 .content a {
+    padding: 4px;
+    font-size: 0.9em;
+  }
+}
+
 .card {
   position: relative;
   width: 300px;
@@ -96,11 +146,4 @@ img {
 
 .card:hover .face.face2 {
   transform: translateY(0);
-}
-
-.main-div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0 2%;
 }

@@ -19,10 +19,34 @@
   cursor: pointer;
   color: black;
 }
+
 .date-class {
   color: black;
 }
 
 #dark .date-class {
   color: white;
+}
+
+@media (min-width: 768px) {
+  .work-experience-section {
+    margin-left: 8rem;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .work-experience-section {
+    margin-left: 0.1rem;
+    margin-right: 2rem;
+  }
+
+  .tech-skills p {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .vertical-timeline-element-title,
+  .vertical-timeline-element-subtitle {
+    font-size: 16px;
+  }
 }
