@@ -25,7 +25,7 @@ const Carousel = () => {
       description: "",
     },
     {
-      url: "https://scontent.fagr1-1.fna.fbcdn.net/v/t39.30808-6/350835064_578867497650324_6133263889683974917_n.jpg?stp=dst-jpg_p526x296&_nc_cat=104&ccb=1-7&_nc_sid=86c6b0&_nc_ohc=W_BmcbLMCLQQ7kNvgFN1Akp&_nc_ht=scontent.fagr1-1.fna&oh=00_AYCzNcvy8jM2FShOzZDQGc7Xo0Cz_e2FJMAgz2-xEW_QcA&oe=6696FAA3",
+      url: "https://i.ibb.co/XLP3LtG/ddd.jpg",
       title: "Hanging Out.",
       description: "",
     },
