@@ -44,7 +44,7 @@ const Carousel = () => {
               <div className="imgbox">
                 <img src={img.url} alt={img.title} />
               </div>
-              <div className="content">
+              <div className="contentt">
                 <h2>{img.title}</h2>
                 <p>{img.description}</p>
               </div>
