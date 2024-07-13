@@ -14,6 +14,7 @@ import {
 } from "react-icons/fc";
 import { MdBiotech, MdCastForEducation } from "react-icons/md";
 import { Link } from "react-scroll";
+import { LiaCertificateSolid } from "react-icons/lia";
 function NavbarMobileView({ theme, changeTheme }) {
   const [open, setOpen] = useState(false);
   const handleClick = () => {
@@ -123,6 +124,17 @@ function NavbarMobileView({ theme, changeTheme }) {
                   offset={-100}
                 >
                   <FcFlashOn size={16} /> Hobbies
+                </Link>
+              </li>
+              <li className="nav-item-mobileview">
+                <Link
+                  to="certi"
+                  spy={true}
+                  smooth={true}
+                  duration={100}
+                  offset={-100}
+                >
+                  <LiaCertificateSolid color="yellow" size={16} /> Certificates
                 </Link>
               </li>
               <li className="nav-item-mobileview">

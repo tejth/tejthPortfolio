@@ -11,6 +11,7 @@ import Contact from "./Components/Contact/Contact";
 import ScrollToTop from "react-scroll-to-top";
 import NavbarMobileView from "./Components/Sidebar/NavbarMobileView";
 import Hobbies from "./Components/Hobbies/Hobbies";
+import Certificate from "./Components/Certificates/Certificate";
 
 export const ThemeContext = createContext(null);
 
@@ -77,6 +78,7 @@ function App() {
           <Education />
           <Notes />
           <Hobbies />
+          <Certificate />
           <Contact />
         </div>
       )}
