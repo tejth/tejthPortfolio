@@ -8,6 +8,15 @@
   background-color: rgb(234, 234, 234, 255);
 }
 
+#light .mine {
+  background-color: rgb(234, 234, 234, 255);
+}
+
+.mine {
+  background-color: #38004c;
+  margin-top: 4%;
+}
+
 .certificatecon {
   font-family: "Quicksand", sans-serif;
   display: flex;
