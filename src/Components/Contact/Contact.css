@@ -29,6 +29,12 @@
   margin-top: 50px;
 }
 
+@media (max-width: 767px) {
+  .contact-form-image img {
+    height: 200px;
+  }
+}
+
 .contact-form input {
   height: 50px;
   border-radius: 10px;
