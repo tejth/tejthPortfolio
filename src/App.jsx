@@ -43,10 +43,28 @@ function App() {
     <ThemeContext.Provider value={{ theme, changeTheme }}>
       {loading ? (
         <div id="loading-screen">
-          <img
-            src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*U2RiSXJx8U9K4thZ.gif"
-            alt="loading..."
-          />
+          <div className="loader">
+            <span style={{ "--i": 1 }}></span>
+            <span style={{ "--i": 2 }}></span>
+            <span style={{ "--i": 3 }}></span>
+            <span style={{ "--i": 4 }}></span>
+            <span style={{ "--i": 5 }}></span>
+            <span style={{ "--i": 6 }}></span>
+            <span style={{ "--i": 7 }}></span>
+          </div>
+          <svg className="svvvg">
+            <filter id="gooey">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+              <feColorMatrix
+                values="
+                1 0 0 0 0
+                0 1 0 0 0
+                1 0 1 0 0
+                1 0 0 20 -10
+            "
+              />
+            </filter>
+          </svg>
         </div>
       ) : (
         <div id={theme}>

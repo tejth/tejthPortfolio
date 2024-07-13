@@ -30,12 +30,95 @@
 }
 
 #light body {
-  background-image: url("https://img.freepik.com/free-photo/abstract-droplets-rain-white-paint_23-2148402468.jpg");
+  background-image: url("data:image/jpeg;base64,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");
 }
 
 @media (min-width: 768px) {
   #loading-screen {
     margin-top: 10%;
     margin-left: 42%;
+  }
+}
+/* //// */
+.loading-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #010b10;
+}
+
+.svvvg {
+  height: 0;
+  width: 0;
+}
+.loader {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  -webkit-filter: url(#gooey);
+  filter: url(#gooey);
+}
+
+.loader span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+  -webkit-animation: animate 2s ease-in-out infinite;
+  animation: animate 2s ease-in-out infinite;
+  -webkit-animation-delay: calc(0.2s * var(--i));
+  animation-delay: calc(0.2s * var(--i));
+}
+
+.loader span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 30px #03a9f4;
+  box-shadow: 0 0 30px #03a9f4;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fce4ec),
+    to(#03a9f4)
+  );
+  background: linear-gradient(#fce4ec, #03a9f4);
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50%,
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50%,
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
