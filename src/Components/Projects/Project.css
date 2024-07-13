@@ -4,8 +4,8 @@
   align-items: center;
   padding: 20px;
   width: 100%;
-  margin: 0 auto;
-  margin-top: 4%;
+  /* margin: 0 auto; */
+  margin-top: 2%;
   max-width: 100%;
 }
 
@@ -48,12 +48,6 @@
 @media (max-width: 768px) {
   .project-wrapper {
     grid-template-columns: 1fr;
-  }
-}
-@media (min-width: 768px) {
-  .proooo {
-    /* margin-left: 9%; */
-    margin-top: 4%;
   }
 }
 

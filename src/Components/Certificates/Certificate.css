@@ -14,7 +14,7 @@
 
 .mine {
   background-color: #38004c;
-  margin-top: 4%;
+  margin-top: 2%;
 }
 
 .certificatecon {
@@ -23,7 +23,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 50vh;
   background-color: #38004c;
   margin-top: 4%;
   max-width: 100%;
@@ -72,8 +72,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   object-fit: cover;
 }
 

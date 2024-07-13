@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hobbies.css";
-
+import Roll from "react-reveal/Roll";
 const Carousel = () => {
   const imgData = [
     {
@@ -33,25 +33,27 @@ const Carousel = () => {
 
   return (
     <>
-      <div className="container hobcon" id="hobi">
-        <div className="section-title" style={{ marginBottom: "6px" }}>
-          <h5>Hobbies</h5>
-          <span className="line tech-stack-line"></span>
-        </div>
-        <div className="image-card-album">
-          {imgData.map((img, index) => (
-            <div className="card" key={index}>
-              <div className="imgbox">
-                <img src={img.url} alt={img.title} />
+      <Roll>
+        <div className="container hobcon" id="hobi">
+          <div className="section-title" style={{ marginBottom: "6px" }}>
+            <h5>Hobbies</h5>
+            <span className="line tech-stack-line"></span>
+          </div>
+          <div className="image-card-album">
+            {imgData.map((img, index) => (
+              <div className="card" key={index}>
+                <div className="imgbox">
+                  <img src={img.url} alt={img.title} />
+                </div>
+                <div className="contentt">
+                  <h2>{img.title}</h2>
+                  <p>{img.description}</p>
+                </div>
               </div>
-              <div className="contentt">
-                <h2>{img.title}</h2>
-                <p>{img.description}</p>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
+      </Roll>
     </>
   );
 };
