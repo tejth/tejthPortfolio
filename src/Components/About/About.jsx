@@ -63,9 +63,7 @@ function About() {
                   <p>
                     A passionate frontend developer with a flair for crafting
                     beautiful and responsive web applications.Currently Learning
-                    Backend exploring world of Data Science.
-                    <br />
-                    When I'm not coding , I am eating pani puri. 😋
+                    Backend and exploring world of Data Science.🧑‍💻
                   </p>
                 </div>
               </div>
