@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./TechStack.css";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
-
+import { SiScikitlearn } from "react-icons/si";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -53,6 +53,11 @@ function TechStack() {
       pdf: "https://github.com/tejth/Python",
       icon: <SiGeopandas />,
     },
+    {
+      name: "Scikit learn",
+      pdf: "https://github.com/tejth/Python",
+      icon: <SiScikitlearn />,
+    },
     { name: "Turtle", pdf: "/pdfs/turtle.pdf", icon: <GiSeaTurtle /> },
     {
       name: "SQLite3",
@@ -82,6 +87,7 @@ function TechStack() {
     "#FFBB24",
     "#FF1042",
     "#3498DB ",
+    " rgb(37, 150, 190)",
   ];
 
   const [showMoreTechStack, setShowMoreTechStack] = useState(9);

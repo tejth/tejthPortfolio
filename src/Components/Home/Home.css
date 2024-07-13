@@ -129,7 +129,9 @@
   text-decoration: none;
   color: white;
 }
-
+#light body {
+  background-image: url("https://img.freepik.com/free-photo/abstract-droplets-rain-white-paint_23-2148402468.jpg");
+}
 .theme-change {
   justify-content: center;
   height: 30px;

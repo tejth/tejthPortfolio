@@ -9,16 +9,16 @@ import { FaGraduationCap } from "react-icons/fa";
 function Education() {
   const data = [
     {
-      name: "S.T Francis Inter College.",
-      degree: "Science + Maths + Computer",
-      year: "2022(Passed)",
-      des: "Done My Schooling from CBSE Board, Got 84% in class 10th and 82% in class 12th. ",
-    },
-    {
       name: "JECRC University Jaipur",
       degree: "Btech (CSE)",
       year: "2022-2026",
       des: "Persuing my Btech from JECRC University Jaipur.",
+    },
+    {
+      name: "S.T Francis Inter College.",
+      degree: "Science + Maths + Computer",
+      year: "2022(Passed)",
+      des: "Done My Schooling from CBSE Board, Got 84% in class 10th and 82% in class 12th. ",
     },
   ];
 

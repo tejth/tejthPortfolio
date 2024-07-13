@@ -10,8 +10,8 @@ body {
 }
 
 .hobcon {
-  margin-top: 8%;
-  background-color: rgba(208, 224, 255, 255);
+  margin-top: 4%;
+  background-color: rgb(216, 228, 244);
   width: 100%;
   max-width: 100%;
 }
@@ -53,7 +53,7 @@ body {
 
 .imgbox img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 4px;
 }
 
@@ -72,7 +72,9 @@ body {
   margin-top: -20px;
   transition-delay: 0.3s;
 }
-
+#dark .contentt {
+  color: white;
+}
 /* Responsive Styles */
 @media (max-width: 767px) {
   .image-card-album {

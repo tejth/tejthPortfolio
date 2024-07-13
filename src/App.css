@@ -29,6 +29,10 @@
   margin-top: 60%;
 }
 
+#light body {
+  background-image: url("https://img.freepik.com/free-photo/abstract-droplets-rain-white-paint_23-2148402468.jpg");
+}
+
 @media (min-width: 768px) {
   #loading-screen {
     margin-top: 10%;
