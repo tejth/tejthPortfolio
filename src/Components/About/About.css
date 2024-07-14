@@ -40,7 +40,7 @@
   max-width: 300px;
   height: auto;
   border-radius: 50%;
-  border: 5px solid yellow;
+  /* border: 5px solid yellow; */
   object-fit: cover;
 }
 
@@ -311,7 +311,7 @@ button {
 
 @media (max-width: 480px) {
   .about-image img {
-    max-width: 150px;
+    width: 15rem;
   }
 
   .squre {

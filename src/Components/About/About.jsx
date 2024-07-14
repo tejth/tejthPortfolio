@@ -7,7 +7,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { FaGithub, FaFacebook } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { FaMedium } from "react-icons/fa6";
-
+import myproo from "../../image/myproo.jpg";
 function About() {
   const [ripples, setRipples] = useState([]);
 
@@ -39,7 +39,7 @@ function About() {
         <Fade bottom>
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <div className="about-image">
-              <img src={ProfilePic} alt="PROFILE PHOTO" />
+              <img src={myproo} alt="PROFILE PHOTO" />
             </div>
           </div>
         </Fade>

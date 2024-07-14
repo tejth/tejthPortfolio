@@ -1,6 +1,8 @@
 import React from "react";
 import "./SidebarList.css";
 import profilepic from "../../image/profile.jpg";
+import profile from "../../image/myproo.jpg";
+
 import {
   FcHome,
   FcNightPortrait,
@@ -20,7 +22,7 @@ function SidebarList({ expandSidebar }) {
       {expandSidebar ? (
         <div className="navbar-items">
           <div className="sidebar-profile-pic">
-            <img src={profilepic} alt="profile picture" />
+            <img src={profile} alt="profile picture" />
           </div>
 
           <ul>
