@@ -96,7 +96,7 @@ function WorkExperience() {
                 </div>
 
                 <p>
-                  {item.des} after{" "}
+                  {item.des}{" "}
                   <a
                     href={item.certlink}
                     target="_blank"
