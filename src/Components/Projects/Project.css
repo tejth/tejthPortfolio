@@ -12,6 +12,11 @@
 #light .proooo {
   background-color: #ffecf2;
 }
+@media (max-width: 700px) {
+  .proooo {
+    margin-top: 2rem;
+  }
+}
 
 .section-title {
   text-align: center;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hobbies.css";
-import Roll from "react-reveal/Roll";
+import Zoom from "react-reveal/Zoom";
 const Carousel = () => {
   const imgData = [
     {
@@ -33,7 +33,7 @@ const Carousel = () => {
 
   return (
     <>
-      <Roll>
+      <Zoom>
         <div className="container hobcon" id="hobi">
           <div className="section-title" style={{ marginBottom: "6px" }}>
             <h5>Hobbies</h5>
@@ -53,7 +53,7 @@ const Carousel = () => {
             ))}
           </div>
         </div>
-      </Roll>
+      </Zoom>
     </>
   );
 };

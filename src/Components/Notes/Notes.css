@@ -21,6 +21,12 @@ img {
   background-color: #46045e;
 }
 
+@media (max-width: 700px) {
+  .notes-main {
+    margin-top: 2rem;
+  }
+}
+
 .main-div {
   display: flex;
   flex-wrap: wrap;

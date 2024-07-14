@@ -16,6 +16,12 @@ body {
   max-width: 100%;
 }
 
+@media (max-width: 700px) {
+  .hobcon {
+    margin-top: 2rem;
+  }
+}
+
 #dark .hobcon {
   background-color: #46045e;
 }
