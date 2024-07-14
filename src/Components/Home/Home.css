@@ -73,6 +73,10 @@
   .showcase {
     display: none;
   }
+  .home {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 /* /////////// */

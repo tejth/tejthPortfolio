@@ -1,6 +1,5 @@
 import React from "react";
 import "./SidebarList.css";
-import profilepic from "../../image/profile.jpg";
 import profile from "../../image/myproo.jpg";
 
 import {

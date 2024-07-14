@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./About.css";
-import ProfilePic from "../../image/profile.jpg";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import { CiLinkedin } from "react-icons/ci";

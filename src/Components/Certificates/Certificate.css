@@ -26,16 +26,28 @@
   min-height: 50vh;
   background-color: #38004c;
   margin-top: 4%;
-  max-width: 100%;
-  /* background: #000000; */
+}
+
+@media (max-width: 700px) {
+  .certificatecon {
+    width: 200px;
+  }
+  .mind {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .box {
   position: relative;
   width: 200px;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transform-style: preserve-3d;
   transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+  transition: transform 0.5s ease;
 }
 
 @media only screen and (max-width: 25em) {
@@ -54,6 +66,9 @@
   transform-origin: center;
   transform-style: preserve-3d;
   transform: rotateY(calc(var(--i) * 45deg)) translateZ(300px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 45em) {
@@ -69,9 +84,6 @@
 }
 
 .box span img {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: auto;
   height: auto;
   object-fit: cover;

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./Certificate.css";
 import MohanaSunsetTrees from "./assets/C1.jpg";
 import PlaneSkyBest from "./assets/CER2.jpg";
@@ -11,16 +11,18 @@ import lastt from "./assets/last.jpg";
 import Zoom from "react-reveal/Zoom";
 
 const Certificate = () => {
+  const [rotation, setRotation] = useState(0);
+
   useEffect(() => {
     const box = document.querySelector(".box");
-    const handleMouseMove = (e) => {
-      const r = e.clientX / 5;
-      box.style.transform = `perspective(1000px) rotateY(${r}deg)`;
+    const handleMouseClick = () => {
+      setRotation((prevRotation) => prevRotation + 45);
     };
-    window.addEventListener("mousemove", handleMouseMove);
+
+    window.addEventListener("click", handleMouseClick);
 
     return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("click", handleMouseClick);
     };
   }, []);
 
@@ -33,7 +35,12 @@ const Certificate = () => {
             <span className="line tech-stack-line"></span>
           </div>
           <div className="certificatecon " id="certi">
-            <div className="box">
+            <div
+              className="box"
+              style={{
+                transform: `perspective(1000px) rotateY(${rotation}deg)`,
+              }}
+            >
               <span style={{ "--i": 1 }}>
                 <img src={MohanaSunsetTrees} alt="Mohana_sunset_trees" />
               </span>
