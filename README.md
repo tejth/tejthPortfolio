@@ -3,7 +3,8 @@
 https://github.com/user-attachments/assets/2ed6eed9-9fac-4a9b-8aea-99b1241ff12c
 
  # Project setup
- ``` npm create vite@latest 
+ ```
+      npm create vite@latest 
       npm i
 ```
 
