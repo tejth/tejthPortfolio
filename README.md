@@ -3,10 +3,9 @@
 https://github.com/user-attachments/assets/2ed6eed9-9fac-4a9b-8aea-99b1241ff12c
 
  # Project setup
- <ul>
-   <li>''' npm create vite@latest'''</li>
-   <li>''' npm i '''</li>
- </ul>
+ ``` npm create vite@latest 
+      npm i
+```
 
 
 # Technology Used
