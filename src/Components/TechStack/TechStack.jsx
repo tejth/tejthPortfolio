@@ -18,9 +18,28 @@ import { SiRedux, SiNumpy, SiGeopandas, SiMobxstatetree } from "react-icons/si";
 import { GiSeaTurtle } from "react-icons/gi";
 import { GrMysql } from "react-icons/gr";
 import { TbBrandCpp } from "react-icons/tb";
+import { SiFlask } from "react-icons/si";
 
 function TechStack() {
   const data = [
+    {
+      name: "JavaScript",
+      pdf: "/pdfs/javascript.pdf",
+      icon: <IoLogoJavascript />,
+    },
+    { name: "ReactJS", pdf: "/pdfs/reactjs.pdf", icon: <FaReact /> },
+    {
+      name: "Python",
+      pdf: "https://github.com/tejth/Python",
+      icon: <FaPython />,
+    },
+    { name: "Firebase", pdf: "/pdfs/firebase.pdf", icon: <IoLogoFirebase /> },
+    { name: "Flask", pdf: "/pdfs/nodejs.pdf", icon: <SiFlask /> },
+    {
+      name: "SQLite3",
+      pdf: "https://docs.python.org/3/library/sqlite3.html",
+      icon: <GrMysql />,
+    },
     { name: "HTML", pdf: "/pdfs/html.pdf", icon: <FaHtml5 /> },
     { name: "CSS", pdf: "/pdfs/css.pdf", icon: <FaCss3Alt /> },
     { name: "Bootstrap", pdf: "/pdfs/bootstrap.pdf", icon: <FaBootstrap /> },
@@ -29,20 +48,11 @@ function TechStack() {
       pdf: "https://tailwind.build/classes",
       icon: <RiTailwindCssFill />,
     },
-    {
-      name: "JavaScript",
-      pdf: "/pdfs/javascript.pdf",
-      icon: <IoLogoJavascript />,
-    },
-    { name: "ReactJS", pdf: "/pdfs/reactjs.pdf", icon: <FaReact /> },
+
     { name: "Redux", pdf: "/pdfs/redux.pdf", icon: <SiRedux /> },
     { name: "Zustand", pdf: "/pdfs/zustand.pdf", icon: <SiMobxstatetree /> },
     { name: "GIT", pdf: "/pdfs/git.pdf", icon: <FaGitAlt /> },
-    {
-      name: "Python",
-      pdf: "https://github.com/tejth/Python",
-      icon: <FaPython />,
-    },
+
     {
       name: "Numpy",
       pdf: "https://github.com/tejth/Python",
@@ -59,13 +69,7 @@ function TechStack() {
       icon: <SiScikitlearn />,
     },
     { name: "Turtle", pdf: "/pdfs/turtle.pdf", icon: <GiSeaTurtle /> },
-    {
-      name: "SQLite3",
-      pdf: "https://docs.python.org/3/library/sqlite3.html",
-      icon: <GrMysql />,
-    },
-    { name: "Firebase", pdf: "/pdfs/firebase.pdf", icon: <IoLogoFirebase /> },
-    { name: "NodeJs", pdf: "/pdfs/nodejs.pdf", icon: <FaNodeJs /> },
+
     { name: "C++", pdf: "/pdfs/cpp.pdf", icon: <TbBrandCpp /> },
   ];
 

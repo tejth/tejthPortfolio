@@ -23,7 +23,7 @@ function Project() {
           techname: "JS",
         },
         {
-          techname: "SQLite",
+          techname: "SQLite3",
         },
       ],
     },
@@ -50,6 +50,9 @@ function Project() {
         },
         {
           techname: "Scikit Learn",
+        },
+        {
+          techname: "Flask",
         },
       ],
     },
@@ -80,6 +83,64 @@ function Project() {
       ],
     },
     {
+      name: "Google Clone",
+      des: "Google clone that allows you to search and get results similar to google.",
+      projectlink: "https://searchapptejth.netlify.app",
+      sourcelink: "https://github.com/tejth/GoogleSearchClone",
+      techused: [
+        {
+          techname: "HTML",
+        },
+        {
+          techname: "CSS",
+        },
+        {
+          techname: "JS",
+        },
+        {
+          techname: "ReactJS",
+        },
+      ],
+    },
+    {
+      name: "Codepen Clone",
+      des: "Real Time codeEditor for html , css and Js that allows you to write code and display resukt immediately.",
+      projectlink: "https://tejth-codepen.netlify.app/",
+      sourcelink: "https://github.com/tejth/codepenClone ",
+      techused: [
+        {
+          techname: "HTML",
+        },
+        {
+          techname: "CSS",
+        },
+        {
+          techname: "JS",
+        },
+      ],
+    },
+    {
+      name: "Login and Logout Authentication",
+      des: "A webpage that allows authenticationa an authorization using flask. ",
+      sourcelink:
+        "https://github.com/tejth/ReactjS/tree/main/09reduxToolkitTodo",
+      techused: [
+        {
+          techname: "HTML",
+        },
+
+        {
+          techname: "Python",
+        },
+        {
+          techname: "Sqlite",
+        },
+        {
+          techname: "Flask",
+        },
+      ],
+    },
+    {
       name: "Todo List app",
       des: "A simple To do list app that allows you to add your task that have to be completed . ",
       projectlink: "https://tejth-todo.netlify.app/",
@@ -103,26 +164,7 @@ function Project() {
         },
       ],
     },
-    {
-      name: "Google Clone",
-      des: "Google clone that allows you to search and get results similar to google.",
-      projectlink: "https://searchapptejth.netlify.app",
-      sourcelink: "https://github.com/tejth/GoogleSearchClone",
-      techused: [
-        {
-          techname: "HTML",
-        },
-        {
-          techname: "CSS",
-        },
-        {
-          techname: "JS",
-        },
-        {
-          techname: "ReactJS",
-        },
-      ],
-    },
+
     {
       name: "MovieApp",
       des: "A simple App that shows you description of a movie along with its rating",
@@ -195,23 +237,6 @@ function Project() {
         },
         {
           techname: "ReactJS",
-        },
-      ],
-    },
-    {
-      name: "Codepen Clone",
-      des: "Real Time codeEditor for html , css and Js that allows you to write code and display resukt immediately.",
-      projectlink: "https://tejth-codepen.netlify.app/",
-      sourcelink: "https://github.com/tejth/codepenClone ",
-      techused: [
-        {
-          techname: "HTML",
-        },
-        {
-          techname: "CSS",
-        },
-        {
-          techname: "JS",
         },
       ],
     },

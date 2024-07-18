@@ -73,6 +73,12 @@ body {
   transition: 0.3s ease-in-out;
 }
 
+@media (max-width: 500px) {
+  .card .contentt {
+    visibility: visible;
+  }
+}
+
 .card:hover .contentt {
   visibility: visible;
   opacity: 1;

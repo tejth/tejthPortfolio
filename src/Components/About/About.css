@@ -209,6 +209,15 @@ button {
   background: #f3a344;
 }
 
+@media (max-width: 500px) {
+  #light .squre span {
+    background: rgba(154, 213, 253, 255);
+  }
+  #dark .squre span {
+    background: #f3a344;
+  }
+}
+
 #light .squre:hover span {
   border: none;
   background: rgba(154, 213, 253, 255);
