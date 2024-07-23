@@ -3,6 +3,15 @@
   background-color: rgb(234, 234, 234, 255);
   max-width: 100%;
 }
+@media (min-width: 768px) {
+  .vttime {
+    margin-left: 4rem;
+  }
+  .section-title {
+    margin-left: 4rem;
+  }
+}
+
 #dark .work-experience-section {
   background-color: #46045e;
 }
