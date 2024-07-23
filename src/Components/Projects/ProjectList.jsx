@@ -17,6 +17,19 @@ function ProjectList({ name, des, projectlink, techused, sourcelink }) {
     setShow(!show);
   };
 
+  // Array of project names that should show the Live Demo button
+  const projectsWithLiveDemo = [
+    "Alexa A.I",
+    "PortFolio",
+    "Google Clone",
+    "Codepen Clone",
+    "Todo List app",
+    "CurrencyConvertor",
+    "Drawing WebApp",
+  ];
+
+  const showLiveDemoButton = projectsWithLiveDemo.includes(name);
+
   return (
     <>
       <Zoom>
@@ -66,9 +79,11 @@ function ProjectList({ name, des, projectlink, techused, sourcelink }) {
 
           <div className="button-container">
             <div className="project-button">
-              <a className="live-demo-button" target="_" href={projectlink}>
-                Live Demo
-              </a>
+              {showLiveDemoButton && (
+                <a className="live-demo-button" target="_" href={projectlink}>
+                  Live Demo
+                </a>
+              )}
               <a className="source-code-button" target="_" href={sourcelink}>
                 Source Code
               </a>

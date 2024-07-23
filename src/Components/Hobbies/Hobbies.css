@@ -45,6 +45,28 @@ body {
   overflow: hidden;
 }
 
+.card .contentt {
+  padding: 20px;
+  text-align: center;
+  color: #111;
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 400px) {
+  .card .contentt {
+    visibility: visible;
+    opacity: 1;
+    transition: none; /* Remove transition effect on smaller screens */
+  }
+}
+
+.card:hover .contentt {
+  visibility: hidden;
+  opacity: 0;
+  margin-top: -20px;
+  transition-delay: 0.3s;
+}
+
 .card:hover {
   height: 360px;
 }
@@ -64,30 +86,10 @@ body {
   object-fit: cover;
 }
 
-.contentt {
-  padding: 20px;
-  text-align: center;
-  color: #111;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.3s ease-in-out;
-}
-
-@media (max-width: 500px) {
-  .card .contentt {
-    visibility: visible;
-  }
-}
-
-.card:hover .contentt {
-  visibility: visible;
-  opacity: 1;
-  margin-top: -20px;
-  transition-delay: 0.3s;
-}
 #dark .contentt {
   color: white;
 }
+
 /* Responsive Styles */
 @media (max-width: 767px) {
   .image-card-album {
