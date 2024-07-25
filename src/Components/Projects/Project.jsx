@@ -123,7 +123,7 @@ function Project() {
       name: "Login and Logout Authentication",
       des: "A webpage that allows authenticationa an authorization using flask. ",
       sourcelink:
-        "https://github.com/tejth/ReactjS/tree/main/09reduxToolkitTodo",
+        "https://github.com/tejth/Flask-Python/tree/main/Authentication",
       techused: [
         {
           techname: "HTML",
