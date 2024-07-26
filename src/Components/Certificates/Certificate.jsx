@@ -8,6 +8,8 @@ import TaxiSide from "./assets/26.jpg";
 import UdaypurParaglydig from "./assets/cf6.jpg";
 import ap from "./assets/24.jpg";
 import lastt from "./assets/last.jpg";
+import final from "./assets/final.jpg";
+
 import Zoom from "react-reveal/Zoom";
 
 const Certificate = () => {
@@ -42,28 +44,31 @@ const Certificate = () => {
               }}
             >
               <span style={{ "--i": 1 }}>
-                <img src={MohanaSunsetTrees} alt="Mohana_sunset_trees" />
+                <img src={MohanaSunsetTrees} alt="certificate-img" />
               </span>
               <span style={{ "--i": 2 }}>
-                <img src={PlaneSkyBest} alt="plane_sky" />
+                <img src={PlaneSkyBest} alt="certificate-img" />
               </span>
               <span style={{ "--i": 3 }}>
-                <img src={RangoliDesign} alt="Rangoli_design" />
+                <img src={RangoliDesign} alt="certificate-img" />
               </span>
               <span style={{ "--i": 4 }}>
-                <img src={SunsetAtSaltlake} alt="sunset_at_saltlake" />
+                <img src={SunsetAtSaltlake} alt="certificate-img" />
               </span>
               <span style={{ "--i": 5 }}>
-                <img src={TaxiSide} alt="taxi_side" />
+                <img src={TaxiSide} alt="certificate-img" />
               </span>
               <span style={{ "--i": 6 }}>
-                <img src={UdaypurParaglydig} alt="udaypur_paraglydig" />
+                <img src={UdaypurParaglydig} alt="certificate-img" />
               </span>
               <span style={{ "--i": 7 }}>
-                <img src={ap} alt="udaypur_paraglydig" />
+                <img src={ap} alt="certificate-img" />
               </span>
               <span style={{ "--i": 8 }}>
-                <img src={lastt} alt="udaypur_paraglydig" />
+                <img src={lastt} alt="certificate-img" />
+              </span>
+              <span style={{ "--i": 9 }}>
+                <img src={final} alt="certificate-img" />
               </span>
             </div>
           </div>
