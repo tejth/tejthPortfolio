@@ -34,48 +34,50 @@ const Certificate = () => {
             <span className="line tech-stack-line"></span>
           </div>
           <div className="certificatecon " id="certi">
-            <div
-              className="box"
-              style={{
-                transform: `perspective(1000px) rotateY(${rotation}deg)`,
-              }}
-            >
-              <span style={{ "--i": 1 }}>
-                <img src={MohanaSunsetTrees} alt="certificate-img" />
-              </span>
-              <span style={{ "--i": 2 }}>
-                <img src={PlaneSkyBest} alt="certificate-img" />
-              </span>
-              <span style={{ "--i": 3 }}>
-                <img src={RangoliDesign} alt="certificate-img" />
-              </span>
-              <span style={{ "--i": 4 }}>
-                <img src={SunsetAtSaltlake} alt="certificate-img" />
-              </span>
-              <span style={{ "--i": 5 }}>
-                <img src={TaxiSide} alt="certificate-img" />
-              </span>
-              <span style={{ "--i": 6 }}>
-                <img src={UdaypurParaglydig} alt="certificate-img" />
-              </span>
-              <span style={{ "--i": 7 }}>
-                <img src={ap} alt="certificate-img" />
-              </span>
-              <span style={{ "--i": 8 }}>
-                <img
-                  src="https://i.ibb.co/chS1WHQ/1.jpg"
-                  alt="certificate-img"
-                />
-              </span>
-              <span style={{ "--i": 9 }}>
-                <img src={final} alt="certificate-img" />
-              </span>
-              <span style={{ "--i": 9 }}>
-                <img
-                  src="https://i.ibb.co/R35t6Jp/2.jpg"
-                  alt="certificate-img"
-                />
-              </span>
+            <div className="fixres">
+              <div
+                className="box"
+                style={{
+                  transform: `perspective(1000px) rotateY(${rotation}deg)`,
+                }}
+              >
+                <span style={{ "--i": 1 }}>
+                  <img src={MohanaSunsetTrees} alt="certificate-img" />
+                </span>
+                <span style={{ "--i": 2 }}>
+                  <img src={PlaneSkyBest} alt="certificate-img" />
+                </span>
+                <span style={{ "--i": 3 }}>
+                  <img src={RangoliDesign} alt="certificate-img" />
+                </span>
+                <span style={{ "--i": 4 }}>
+                  <img src={SunsetAtSaltlake} alt="certificate-img" />
+                </span>
+                <span style={{ "--i": 5 }}>
+                  <img src={TaxiSide} alt="certificate-img" />
+                </span>
+                <span style={{ "--i": 6 }}>
+                  <img src={UdaypurParaglydig} alt="certificate-img" />
+                </span>
+                <span style={{ "--i": 7 }}>
+                  <img src={ap} alt="certificate-img" />
+                </span>
+                <span style={{ "--i": 8 }}>
+                  <img
+                    src="https://i.ibb.co/chS1WHQ/1.jpg"
+                    alt="certificate-img"
+                  />
+                </span>
+                <span style={{ "--i": 9 }}>
+                  <img src={final} alt="certificate-img" />
+                </span>
+                <span style={{ "--i": 9 }}>
+                  <img
+                    src="https://i.ibb.co/R35t6Jp/2.jpg"
+                    alt="certificate-img"
+                  />
+                </span>
+              </div>
             </div>
           </div>
         </div>

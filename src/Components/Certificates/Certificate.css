@@ -108,3 +108,9 @@
     transform: perspective(1000px) rotateY(360deg);
   }
 }
+
+@media screen and (max-width: 400px) {
+  .fixres {
+    margin-left: 100px;
+  }
+}
