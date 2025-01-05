@@ -1,21 +1,20 @@
-import React from "react";
 import "./Hobbies.css";
 import Zoom from "react-reveal/Zoom";
 const Carousel = () => {
   const imgData = [
     {
-      url: "https://scontent.fagr1-3.fna.fbcdn.net/v/t1.6435-9/76726098_201823777498642_8073324642758033408_n.jpg?stp=dst-jpg_p526x395&_nc_cat=105&ccb=1-7&_nc_sid=7b2446&_nc_ohc=WRTNMA3X8KoQ7kNvgEGShp0&_nc_ht=scontent.fagr1-3.fna&oh=00_AYBbUUR13UMR2u-KvFsGqad2h5Fbhpim5FcQwOUFpqg2qQ&oe=66B89328",
+      url: "https://i.ibb.co/tYqQRjB/1.jpg",
       title: "Track and Fields",
       description: "Won Gold Medals in 100m , 200m and 400m at district level.",
     },
     {
-      url: "https://scontent.fagr1-1.fna.fbcdn.net/v/t1.6435-9/70401308_187305442283809_4117283042970566656_n.jpg?stp=dst-jpg_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=7b2446&_nc_ohc=W0RixjKNT5AQ7kNvgFZ6uxJ&_nc_ht=scontent.fagr1-1.fna&oh=00_AYDhPXJrpnrHYKys7usGUpY7SuL_ZglygvCAGagrgQ-PqA&oe=66B86D0A",
+      url: "https://i.ibb.co/jD6CK6Q/basketball.jpg",
       title: "BasketBall",
       description:
         "Achieved multiple positions in intercity basketball competitions.",
     },
     {
-      url: "https://scontent.fagr1-4.fna.fbcdn.net/v/t1.6435-9/76765498_204036040610749_6416395224251105280_n.jpg?stp=dst-jpg_s600x600&_nc_cat=102&ccb=1-7&_nc_sid=7b2446&_nc_ohc=H373E4du2dsQ7kNvgEwsi6a&_nc_ht=scontent.fagr1-4.fna&oh=00_AYCWPPshnjS6pNl6SDR-UHKWvZ1eDrpjYFSyQY5PDXGcvA&oe=66B87417",
+      url: "https://i.ibb.co/R4Sjw6R/tracck-and-field.jpg",
       title: "Marathon",
       description: "Got First Position in 5km school Marathon race. ",
     },

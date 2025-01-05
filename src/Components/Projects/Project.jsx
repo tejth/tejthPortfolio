@@ -7,8 +7,7 @@ function Project() {
     {
       name: "Alexa A.I",
       des: "A Voice Assistant A.I Similar to chatGpt that receives requests from user either through mic or keyboard  and send responses . It also performs basic taks such as opening application , Playing Music , Telling Weather etc..",
-      projectlink: "https://tejth-aialexa.netlify.app/",
-      sourcelink: "https://github.com/tejth/AlexaVoiceAssistantAi",
+      sourcelink: "https://github.com/tejth/AlexaBot",
       techused: [
         {
           techname: "Python",
@@ -24,6 +23,9 @@ function Project() {
         },
         {
           techname: "SQLite3",
+        },
+        {
+          techname: "Jquery",
         },
       ],
     },
@@ -79,6 +81,41 @@ function Project() {
         },
         {
           techname: "Firebase",
+        },
+      ],
+    },
+    {
+      name: "Todo List app",
+      des: "A simple To do list app that allows you to add your task that have to be completed . ",
+      projectlink: "https://tejth-todo.netlify.app/",
+      sourcelink:
+        "https://github.com/tejth/ReactjS/tree/main/09reduxToolkitTodo",
+      techused: [
+        {
+          techname: "HTML",
+        },
+        {
+          techname: "CSS",
+        },
+        {
+          techname: "JS",
+        },
+        {
+          techname: "ReactJS",
+        },
+        {
+          techname: "Redux",
+        },
+      ],
+    },
+
+    {
+      name: "Blinkit DashBoard",
+      des: "Dashboard showing details about sales of blinkit ",
+      sourcelink: "https://github.com/tejth/Data-visualization-Tata-Tasks",
+      techused: [
+        {
+          techname: "PowerBI",
         },
       ],
     },
@@ -140,30 +177,6 @@ function Project() {
         },
       ],
     },
-    {
-      name: "Todo List app",
-      des: "A simple To do list app that allows you to add your task that have to be completed . ",
-      projectlink: "https://tejth-todo.netlify.app/",
-      sourcelink:
-        "https://github.com/tejth/ReactjS/tree/main/09reduxToolkitTodo",
-      techused: [
-        {
-          techname: "HTML",
-        },
-        {
-          techname: "CSS",
-        },
-        {
-          techname: "JS",
-        },
-        {
-          techname: "ReactJS",
-        },
-        {
-          techname: "Redux",
-        },
-      ],
-    },
 
     {
       name: "MovieApp",
@@ -197,46 +210,6 @@ function Project() {
         },
         {
           techname: "JS",
-        },
-      ],
-    },
-    {
-      name: "WeatherLocator",
-      des: "Get instant Weather of Your City With Weather information.",
-      projectlink: "https://tejth-weatherapp.netlify.app/",
-      sourcelink: "https://github.com/tejth/ReactjS/tree/main/WeatherLocator ",
-      techused: [
-        {
-          techname: "HTML",
-        },
-        {
-          techname: "CSS",
-        },
-        {
-          techname: "JS",
-        },
-        {
-          techname: "ReactJS",
-        },
-      ],
-    },
-    {
-      name: "Drawing WebApp",
-      des: "A simple Webpage That allows you to draw on screen similar to paint app",
-      projectlink: "https://tejth-drawingapp.netlify.app/",
-      sourcelink: " https://github.com/tejth/ReactjS/tree/main/drawing-app  ",
-      techused: [
-        {
-          techname: "HTML",
-        },
-        {
-          techname: "CSS",
-        },
-        {
-          techname: "JS",
-        },
-        {
-          techname: "ReactJS",
         },
       ],
     },

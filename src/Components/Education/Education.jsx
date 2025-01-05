@@ -12,13 +12,13 @@ function Education() {
       name: "JECRC University Jaipur",
       degree: "Btech (CSE)",
       year: "2022-2026",
-      des: "Persuing my Btech from JECRC University Jaipur. (9.2 / 10 C.G.P.A)",
+      des: "Persuing my Btech from JECRC University Jaipur. (9.3 / 10 C.G.P.A)",
     },
     {
       name: "S.T Francis Inter College.",
       degree: "Physics , Chemistry , Maths and Computer Science",
       year: "2022",
-      des: "Done My Schooling from CBSE Board, Got 84% in class 10th and 82% in class 12th. ",
+      des: "Done My Schooling from CBSE Board! Got 85% in class 10th and 82% in class 12th. ",
     },
   ];
 

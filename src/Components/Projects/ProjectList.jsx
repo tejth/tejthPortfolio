@@ -19,7 +19,6 @@ function ProjectList({ name, des, projectlink, techused, sourcelink }) {
 
   // Array of project names that should show the Live Demo button
   const projectsWithLiveDemo = [
-    "Alexa A.I",
     "PortFolio",
     "Google Clone",
     "Codepen Clone",

@@ -1,4 +1,3 @@
-import React from "react";
 import "./WorkExperience.css";
 import {
   VerticalTimeline,
@@ -10,12 +9,13 @@ import { MdGroupWork } from "react-icons/md";
 function WorkExperience() {
   const data = [
     {
-      companyname: "InternPe",
+      companyname: "Codesoft",
       position: "Frontend Developer",
       des: "Created Three Projects assigned to me by Internpe in Three Months.",
-      year: "Sept 2023-Oct 2023",
+      year: "Aug 2023-Sept 2023",
       certlink:
-        "https://media.licdn.com/dms/image/D4D2DAQEKrSXW6YqMCA/profile-treasury-image-shrink_1920_1920/0/1696716778720?e=1721462400&v=beta&t=ZRt87RR2gh_bTMGxA_QUdKoRucJFQa8AtVdHwcWuvnw",
+        "https://drive.google.com/file/d/1ZYGV3c2OFoak2-SH1eUaHP5rLlQ4Jm5L/view?usp=drivesdk ",
+      sourcelink: "https://github.com/tejth/CodeSoft-Internship-Projects", // Source Code Link
       techskills: [
         {
           techname: "CSS",
@@ -29,12 +29,13 @@ function WorkExperience() {
       ],
     },
     {
-      companyname: "Codesoft",
+      companyname: "InternPe",
       position: "Frontend Developer",
       des: "Created Three Projects assigned to me by Internpe in Three Months.",
-      year: "Aug 2023-Sept 2023",
+      year: "Sept 2023-Oct 2023",
       certlink:
-        "https://media.licdn.com/dms/image/D4D2DAQGxUqJmuqnaYQ/profile-treasury-image-shrink_1920_1920/0/1694149728046?e=1721462400&v=beta&t=f8Wvqzd5Loi6_dQSddzntAudDGHAFirvr_tJyjm39qY",
+        "https://drive.google.com/file/d/1eMb00LI-LIbWvdvb1T4PIf0CnmJDAbyZ/view?usp=drivesdk ",
+      // Removed sourcelink for InternPe
       techskills: [
         {
           techname: "CSS",
@@ -48,7 +49,9 @@ function WorkExperience() {
       ],
     },
   ];
+
   const colors = ["#7c83c7", "#FF8042", "#4B088A", "#FF6347", "#FF1042"];
+
   return (
     <>
       <div className="container work-experience-section" id="experiencei">
@@ -104,7 +107,19 @@ function WorkExperience() {
                     className="cert-link"
                   >
                     Certificate Link
-                  </a>
+                  </a>{" "}
+                  <br />
+                  {/* Only render the source link for Codesoft */}
+                  {item.sourcelink && (
+                    <a
+                      href={item.sourcelink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cert-link"
+                    >
+                      Source Code Link
+                    </a>
+                  )}
                 </p>
               </VerticalTimelineElement>
             ))}

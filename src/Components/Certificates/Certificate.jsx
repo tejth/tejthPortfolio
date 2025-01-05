@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./Certificate.css";
 import MohanaSunsetTrees from "./assets/C1.jpg";
 import PlaneSkyBest from "./assets/CER2.jpg";
@@ -7,16 +7,13 @@ import SunsetAtSaltlake from "./assets/CER4.jpg";
 import TaxiSide from "./assets/26.jpg";
 import UdaypurParaglydig from "./assets/cf6.jpg";
 import ap from "./assets/24.jpg";
-import lastt from "./assets/last.jpg";
 import final from "./assets/final.jpg";
-
 import Zoom from "react-reveal/Zoom";
 
 const Certificate = () => {
   const [rotation, setRotation] = useState(0);
 
   useEffect(() => {
-    const box = document.querySelector(".box");
     const handleMouseClick = () => {
       setRotation((prevRotation) => prevRotation + 45);
     };
@@ -65,10 +62,19 @@ const Certificate = () => {
                 <img src={ap} alt="certificate-img" />
               </span>
               <span style={{ "--i": 8 }}>
-                <img src={lastt} alt="certificate-img" />
+                <img
+                  src="https://i.ibb.co/chS1WHQ/1.jpg"
+                  alt="certificate-img"
+                />
               </span>
               <span style={{ "--i": 9 }}>
                 <img src={final} alt="certificate-img" />
+              </span>
+              <span style={{ "--i": 9 }}>
+                <img
+                  src="https://i.ibb.co/R35t6Jp/2.jpg"
+                  alt="certificate-img"
+                />
               </span>
             </div>
           </div>

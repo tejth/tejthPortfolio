@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./TechStack.css";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
-import { SiScikitlearn } from "react-icons/si";
+import { SiJquery, SiScikitlearn } from "react-icons/si";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -24,34 +24,72 @@ function TechStack() {
   const data = [
     {
       name: "JavaScript",
-      pdf: "/pdfs/javascript.pdf",
+      pdf: "https://drive.google.com/file/d/19zB4hmIwTZLyHFAphxPcHhhKZ_2Bz83G/view?usp=sharing",
       icon: <IoLogoJavascript />,
     },
-    { name: "ReactJS", pdf: "/pdfs/reactjs.pdf", icon: <FaReact /> },
+    {
+      name: "ReactJS",
+      pdf: "https://drive.google.com/file/d/11K_09sjPNdQDzmYTBNTbvc5Q5LYKrzCw/view?usp=drive_link",
+      icon: <FaReact />,
+    },
     {
       name: "Python",
       pdf: "https://github.com/tejth/Python",
       icon: <FaPython />,
     },
-    { name: "Firebase", pdf: "/pdfs/firebase.pdf", icon: <IoLogoFirebase /> },
-    { name: "Flask", pdf: "/pdfs/nodejs.pdf", icon: <SiFlask /> },
+
+    {
+      name: "C++",
+      pdf: "https://github.com/tejth/CPP-Codes",
+      icon: <TbBrandCpp />,
+    },
+    {
+      name: "Firebase",
+      pdf: "https://drive.google.com/file/d/1Qt7CRALgWiMl3XsKzqQjnWSMfzCCSXSr/view?usp=drive_link",
+      icon: <IoLogoFirebase />,
+    },
+    {
+      name: "Flask",
+      pdf: "https://drive.google.com/file/d/1thupqIQUdaCv6PffDELCPVAB__xzL_hx/view?usp=drive_link",
+      icon: <SiFlask />,
+    },
     {
       name: "SQLite3",
       pdf: "https://docs.python.org/3/library/sqlite3.html",
       icon: <GrMysql />,
     },
-    { name: "HTML", pdf: "/pdfs/html.pdf", icon: <FaHtml5 /> },
-    { name: "CSS", pdf: "/pdfs/css.pdf", icon: <FaCss3Alt /> },
-    { name: "Bootstrap", pdf: "/pdfs/bootstrap.pdf", icon: <FaBootstrap /> },
+    {
+      name: "HTML",
+      pdf: "https://drive.google.com/file/d/1agKx3T_7d5FidlTw2VZPbbhfs6qbglQd/view?usp=drive_link",
+      icon: <FaHtml5 />,
+    },
+    {
+      name: "CSS",
+      pdf: "https://drive.google.com/file/d/1dYeuYjVYk0fRMcX1EpriYp5VAqvlGTYR/view?usp=drive_link",
+      icon: <FaCss3Alt />,
+    },
+    {
+      name: "Bootstrap",
+      pdf: "https://drive.google.com/file/d/1ZG_58MW33helTObdFM0vibRHniMElxON/view?usp=drive_link",
+      icon: <FaBootstrap />,
+    },
     {
       name: "TailWind CSS",
       pdf: "https://tailwind.build/classes",
       icon: <RiTailwindCssFill />,
     },
 
-    { name: "Redux", pdf: "/pdfs/redux.pdf", icon: <SiRedux /> },
-    { name: "Zustand", pdf: "/pdfs/zustand.pdf", icon: <SiMobxstatetree /> },
-    { name: "GIT", pdf: "/pdfs/git.pdf", icon: <FaGitAlt /> },
+    {
+      name: "Redux",
+      pdf: "https://drive.google.com/file/d/1nVg155qS6tO0laVOS8awcBIN3uIjVccz/view?usp=drive_link",
+      icon: <SiRedux />,
+    },
+    { name: "Jquery", pdf: "https://jquery.com/", icon: <SiJquery /> },
+    {
+      name: "GIT",
+      pdf: "https://drive.google.com/file/d/1fWDq4kHij9JKpw-ns4aALB3huWa5DbCx/view?usp=drive_link",
+      icon: <FaGitAlt />,
+    },
 
     {
       name: "Numpy",
@@ -69,8 +107,6 @@ function TechStack() {
       icon: <SiScikitlearn />,
     },
     { name: "Turtle", pdf: "/pdfs/turtle.pdf", icon: <GiSeaTurtle /> },
-
-    { name: "C++", pdf: "/pdfs/cpp.pdf", icon: <TbBrandCpp /> },
   ];
 
   const colors = [

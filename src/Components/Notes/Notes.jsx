@@ -72,7 +72,15 @@ const Notes = () => {
                       "\u00A0"
                     )}
                   </p>
-                  {card && <a href={card.link}>Read More</a>}
+                  {card && (
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={card.link}
+                    >
+                      Read More
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
