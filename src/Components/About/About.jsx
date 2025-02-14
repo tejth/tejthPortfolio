@@ -60,9 +60,9 @@ function About() {
                 <div className="content">
                   <h2>Voilà! I am Tejendra!</h2>
                   <p>
-                    A passionate frontend developer with a flair for crafting
-                    beautiful and responsive web applications.Currently Learning
-                    Backend and exploring world of Data Science.🧑‍💻
+                    A passionate Full Stack Python Developer with a flair for crafting
+                    beautiful and responsive web applications .Currently making my foundations strong in 
+                    Backend 🧑‍💻
                   </p>
                 </div>
               </div>

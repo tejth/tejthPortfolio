@@ -28,7 +28,7 @@ function Home({ theme, changeTheme }) {
               <h2>
                 <Typewriter
                   options={{
-                    strings: ["Frontend Developer.", "Web Developer."],
+                    strings: ["Full Stack Python Developer.", "Web Developer."],
                     autoStart: true,
                     loop: true,
                   }}
