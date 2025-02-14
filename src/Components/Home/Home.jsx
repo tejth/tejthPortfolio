@@ -51,7 +51,7 @@ function Home({ theme, changeTheme }) {
                 <div className="get-resume-button">
                   <button className="button-86" role="button">
                     <a
-                      href="https://drive.google.com/file/d/1W_K3t2CzhhmCKf7I_lifcJr69ZjypB65/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1HlnYYfNKZpDDhpPsV4y4M03-j20qjuen/view?usp=sharing"
                       download="resume.pdf"
                     >
                       Get Resume
