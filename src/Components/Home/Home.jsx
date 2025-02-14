@@ -1,8 +1,6 @@
-import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
-import MyCv from "../../image/Profile.pdf";
-import { BsFillMoonStarsFill, BsMoonStarsFill } from "react-icons/bs";
+import {  BsMoonStarsFill } from "react-icons/bs";
 import { IoSunny } from "react-icons/io5";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
@@ -41,7 +39,7 @@ function Home({ theme, changeTheme }) {
             <Fade bottom>
               <div className="button-for-action">
                 <div className="hire-me-button">
-                  <button class="button-86" role="button">
+                  <button className="button-86" role="button">
                     <a
                       style={{ textDecoration: "none", color: "white" }}
                       href="#contacti"
@@ -51,7 +49,7 @@ function Home({ theme, changeTheme }) {
                   </button>
                 </div>
                 <div className="get-resume-button">
-                  <button class="button-86" role="button">
+                  <button className="button-86" role="button">
                     <a
                       href="https://drive.google.com/file/d/1W_K3t2CzhhmCKf7I_lifcJr69ZjypB65/view?usp=sharing"
                       download="resume.pdf"

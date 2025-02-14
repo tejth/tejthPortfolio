@@ -29,6 +29,34 @@ function Project() {
         },
       ],
     },
+ {
+      name: "CarVibe",
+      des: " This is a fully functional web application built using HTML, CSS, Bootstrap, JavaScript, jQuery, and Python Django. It serves as a platform where users can create, view, and interact with car listings. Users can post their cars for sale, browse through other listings, search for specific cars, and manage their profile and liked cars.",
+      sourcelink: "https://github.com/tejth/CarVibe",
+      techused: [
+        {
+          techname: "Python",
+        },
+        {
+          techname: "Django",
+        },
+        {
+          techname: "Jquery",
+        },
+        {
+          techname: "Html",
+        },
+        {
+          techname: "CSS",
+        },
+        {
+          techname: "JavaScript",
+        },
+        {
+          techname: "Bootstrap",
+        },
+      ],
+    },
     {
       name: "SymptoCare",
       des: "Medical Recommendation tool that gives information about medicines and precautions based on the symptoms entered by the user . Utilizees Machine Learning alogorithm to give results accurately based on input.",
