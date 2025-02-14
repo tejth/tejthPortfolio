@@ -1,4 +1,4 @@
-﻿# Portfolio-Version1 (https://tejth-v1.netlify.app/)
+﻿# Portfolio-Version1 (https://tejthv1.netlify.app/)
 
 https://github.com/user-attachments/assets/2ed6eed9-9fac-4a9b-8aea-99b1241ff12c
 
@@ -6,6 +6,7 @@ https://github.com/user-attachments/assets/2ed6eed9-9fac-4a9b-8aea-99b1241ff12c
  ```
       npm create vite@latest 
       npm i
+      npm run dev
 ```
 
 
